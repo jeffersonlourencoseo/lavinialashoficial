@@ -127,7 +127,7 @@ def header(path):
     return f'''<a class="skip" href="#main">Pular para o conteúdo</a>
 <div class="topbar">Atendimento a domicílio em Cosmos, Campo Grande, Paciência, Vasconcelos, Inhoaíba e Santa Cruz · <a href="{WA_URL}" target="_blank" rel="noopener">Agende pelo WhatsApp</a></div>
 <header class="header"><div class="wrap">
-<a class="brand" href="/" aria-label="Lavinia Monteiro Lash Designer, página inicial">{eye()}<span><b>LAVINIA MONTEIRO</b><small>Lash Designer</small></span></a>
+<a class="brand" href="/">{eye()}<span><b>LAVINIA MONTEIRO</b><small>Lash Designer</small></span></a>
 <button class="burger" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu"><span></span><span></span><span></span></button>
 <nav class="nav" id="menu" aria-label="Principal">{links}<a class="btn sm" href="{WA_URL}" target="_blank" rel="noopener">{ICON_WA}<span>Agendar</span></a></nav>
 </div></header>'''
@@ -137,7 +137,7 @@ def footer():
 <div class="grid">
 <div><a class="brand" href="/">{eye()}<span><b>LAVINIA MONTEIRO</b><small>Lash Designer</small></span></a>
 <p>Extensão de cílios a domicílio em Cosmos, Campo Grande, Paciência, Senador Vasconcelos, Inhoaíba e Santa Cruz, no Rio de Janeiro. Eu vou até você.</p></div>
-<div><h4>Serviços</h4><ul>
+<div><p class="fh">Serviços</p><ul>
 <li><a href="/servicos/extensao-de-cilios-fio-a-fio/">Fio a fio</a></li>
 <li><a href="/servicos/volume-egipcio/">Volume egípcio</a></li>
 <li><a href="/servicos/volume-brasileiro/">Volume brasileiro</a></li>
@@ -145,11 +145,11 @@ def footer():
 <li><a href="/servicos/volume-fox-eyes/">Volume Fox Eyes</a></li>
 <li><a href="/servicos/manutencao-de-cilios/">Manutenção</a></li>
 <li><a href="/servicos/remocao-de-cilios/">Remoção</a></li></ul></div>
-<div><h4>Navegue</h4><ul>
+<div><p class="fh">Navegue</p><ul>
 <li><a href="/quem-sou/">Quem sou</a></li><li><a href="/clientes/">Clientes</a></li>
 <li><a href="/atendimento/cosmos/">Cílios em Cosmos</a></li><li><a href="/atendimento/campo-grande/">Cílios em Campo Grande RJ</a></li>
 <li><a href="/blog/">Blog</a></li><li><a href="/contato/">Contato</a></li></ul></div>
-<div><h4>Fale comigo</h4><ul>
+<div><p class="fh">Fale comigo</p><ul>
 <li><a href="{WA_URL}" target="_blank" rel="noopener">WhatsApp {PHONE_DISPLAY}</a></li>
 <li><a href="{INSTAGRAM}" target="_blank" rel="noopener me">Instagram {INSTAGRAM_USER}</a></li>
 <li><a href="{MAPS}" target="_blank" rel="noopener">Perfil no Google Maps</a></li>
@@ -157,7 +157,7 @@ def footer():
 </div>
 <div class="bar"><span>© 2026 Lavinia Monteiro | Lash Designer. Todos os direitos reservados.</span><span>Cosmos · Campo Grande · Paciência · Sen. Vasconcelos · Inhoaíba · Santa Cruz</span><span class="credit">Site criado por Jefferson Lourenço</span></div>
 </div></footer>
-<a class="wafab" href="{WA_URL}" target="_blank" rel="noopener" aria-label="Chamar a Lavinia no WhatsApp">{ICON_WA}<span>Agendar no WhatsApp</span></a>'''
+<a class="wafab" href="{WA_URL}" target="_blank" rel="noopener" aria-label="Agendar no WhatsApp com a Lavinia">{ICON_WA}<span>Agendar no WhatsApp</span></a>'''
 
 def render(path, title, desc, body, schemas=None, og_image="/assets/img/og-lavinia.jpg", og_type="website", noindex=False, extra_head=""):
     url = SITE_URL + path

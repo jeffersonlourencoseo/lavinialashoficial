@@ -119,7 +119,7 @@ def home():
 <div class="badge">{eye()}<span><b>Eu vou até você</b>Cosmos, Campo Grande, Paciência, Vasconcelos, Inhoaíba e Santa Cruz</span></div>
 </div></div></section>'''
     ticker_items = "".join(f"<li>{s['short']}</li>" for s in SERVICES)
-    ticker = f'<div class="ticker" aria-hidden="true"><ul>{ticker_items}{ticker_items}{ticker_items}{ticker_items}</ul></div>'
+    ticker = f'<div class="ticker" aria-hidden="true"><ul>{ticker_items}{ticker_items}{ticker_items}</ul></div>'
     services = f'''<section class="sec"><div class="wrap">
 {sec_head("Serviços", "Cílios no <em>efeito</em> que combina com você", "Cinco técnicas para cada estilo de olhar, do mais natural ao mais marcante. Toque em uma delas para conhecer.")}
 {service_cards()}{extras_block()}</div></section>'''

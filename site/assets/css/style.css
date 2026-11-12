@@ -97,7 +97,7 @@ section{position:relative}
 .ticker ul{display:flex;gap:46px;margin:0;padding:0;list-style:none;white-space:nowrap;width:max-content;animation:tick 38s linear infinite}
 .ticker li{font-family:var(--serif);font-size:1.5rem;font-style:italic;color:var(--plum);display:flex;align-items:center;gap:46px}
 .ticker li::after{content:"✦";font-style:normal;font-size:.8rem;color:var(--rose)}
-@keyframes tick{to{transform:translateX(-50%)}}
+@keyframes tick{to{transform:translateX(-33.3333%)}}
 
 /* passos */
 .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(20px,3vw,44px);counter-reset:s;margin:0;padding:0;list-style:none}
@@ -217,7 +217,7 @@ section{position:relative}
 /* rodapé */
 .footer{background:var(--plum-deep);color:#D9BFB8;padding:72px 0 0;font-size:.95rem}
 .footer .grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.1fr;gap:40px;padding-bottom:54px}
-.footer h4{font-family:var(--sans);font-size:.76rem;letter-spacing:.26em;text-transform:uppercase;color:var(--rose);margin-bottom:18px;font-weight:500}
+.footer .fh{font-family:var(--sans);font-size:.76rem;letter-spacing:.26em;text-transform:uppercase;color:var(--rose);margin-bottom:18px;font-weight:500}
 .footer ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}
 .footer a{text-decoration:none}.footer a:hover{color:#fff;text-decoration:underline;text-underline-offset:3px}
 .footer .brand{color:#fff;margin-bottom:18px}.footer .brand small{color:var(--rose)}
@@ -323,3 +323,8 @@ section{position:relative}
 @media (max-width:980px){.why-card{flex-basis:calc((100% - 22px) / 2)}}
 @media (max-width:560px){.why-card{flex-basis:100%}}
 .footer .bar .credit{flex-basis:100%;text-align:center;padding-top:6px;opacity:.85}
+
+/* performance: só calcula layout/estilo do que está perto da tela */
+.sec:not(.plum){content-visibility:auto;contain-intrinsic-size:auto 640px}
+/* acima da dobra: sem animação de entrada (melhora o LCP) */
+.js .hero .rv,.js .phero .rv{opacity:1;transform:none;transition:none}
