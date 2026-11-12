@@ -1,0 +1,14 @@
+# fotos originais e arquivos internos do cliente (não vão para o site)
+Nova pasta*/
+*.kmz
+geosetter.txt
+CONTEXTO-LAVINIA.md
+plano-gmn-lavinia.md
+descricao-gmn.txt
+servicos-gmn.md
+posts-gmn*.md
+__pycache__/
+*.pyc
+node_modules/
+.vercel/
+.claude/

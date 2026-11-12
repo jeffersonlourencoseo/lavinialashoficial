@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 608" width="1080" height="608">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FBF1ED"/><stop offset="1" stop-color="#F0D3CB"/></linearGradient></defs>
+<rect width="1080" height="608" fill="url(#g)"/>
+<circle cx="70" cy="60" r="190" fill="#E8C4BA" opacity="0.35"/>
+<circle cx="1030" cy="560" r="220" fill="#E8C4BA" opacity="0.35"/>
+<rect x="24" y="24" width="1032" height="560" rx="18" fill="none" stroke="#C9958B" stroke-width="2" opacity="0.7"/>
+<g fill="none" stroke="#5A2A3C" stroke-linecap="round" transform="translate(540,40) scale(0.55) translate(-360,-300)">
+<path d="M190 300 Q360 420 530 300" stroke-width="8"/><g stroke-width="6"><path d="M210.4 313.5 Q209.0 336.2 202.6 353.7"/><path d="M231.8 325.9 Q230.0 352.6 223.2 373.5"/><path d="M253.1 336.3 Q251.3 367.1 244.3 391.4"/><path d="M274.5 344.8 Q272.9 379.4 266.2 407.0"/><path d="M295.9 351.5 Q294.9 389.3 288.7 419.7"/><path d="M317.3 356.2 Q317.4 396.6 312.0 429.3"/><path d="M338.6 359.1 Q340.1 401.0 335.8 435.2"/><path d="M360.0 360.0 Q363.0 402.4 360.0 437.2"/><path d="M381.4 359.1 Q379.9 400.9 384.2 435.0"/><path d="M402.7 356.2 Q402.6 396.3 408.0 428.7"/><path d="M424.1 351.5 Q425.0 388.5 431.1 418.3"/><path d="M445.5 344.8 Q446.9 377.7 453.4 403.9"/><path d="M466.9 336.3 Q468.3 364.1 474.8 386.1"/><path d="M488.2 325.9 Q489.2 347.9 495.3 365.0"/><path d="M509.6 313.5 Q510.2 332.5 516.1 346.9"/></g></g>
+<text x="540" y="178" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="20" letter-spacing="7" fill="#A8685F">LAVINIA MONTEIRO  |  LASH DESIGNER</text>
+<text x="540" y="258" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="54" fill="#5A2A3C">Cílios fio a fio e volume</text>
+<text x="540" y="305" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-style="italic" fill="#5A2A3C">para um olhar marcante e natural</text>
+<text x="540" y="360" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="21" letter-spacing="1.5" fill="#A8685F">Fio a fio · Volume egípcio · Volume brasileiro · Mega volume · Fox Eyes</text>
+<rect x="300" y="388" width="480" height="48" rx="24" fill="#5A2A3C"/>
+<text x="540" y="420" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="21" letter-spacing="3" fill="#F8E9E4">ATENDIMENTO A DOMICÍLIO</text>
+<text x="540" y="486" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#5A2A3C">Cosmos · Campo Grande · Zona Oeste do Rio de Janeiro</text>
+<text x="540" y="542" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="26" letter-spacing="1" fill="#A8685F">Agende pelo WhatsApp  (21) 98842-0844</text>
+</svg>
