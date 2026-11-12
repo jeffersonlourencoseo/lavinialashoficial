@@ -55,6 +55,16 @@ def testimonials_section():
     return (f'<section class="sec"><div class="wrap">{sec_head("Depoimentos", "O que dizem as <em>clientes</em>")}<div class="depos">{cards}</div>'
             f'<div class="btns" style="justify-content:center;margin-top:36px"><a class="btn ghost" href="{MAPS}" target="_blank" rel="noopener">Ver avaliações no Google</a></div></div></section>')
 
+def why_section():
+    """5 cards factuais. Saem de cena quando houver depoimentos reais (TESTIMONIALS)."""
+    items = [("Eu vou até você", "Atendimento a domicílio em Cosmos, Campo Grande, Paciência, Senador Vasconcelos, Inhoaíba e Santa Cruz. Sem trânsito e sem sair de casa."),
+             ("Hora marcada", "Atenção exclusiva para você, sem fila e sem pressa, no horário combinado pelo WhatsApp."),
+             ("Cinco técnicas", "Fio a fio, volume egípcio, volume brasileiro, mega volume e Fox Eyes. A gente escolhe juntas o efeito do seu olhar."),
+             ("Manutenção e remoção", "O cuidado não termina na aplicação: reposição dos fios e remoção feita com cuidado, tudo em casa."),
+             ("Cuidado com seus fios", "Aplicação feita com calma, respeitando o formato dos seus olhos e a saúde dos seus cílios naturais.")]
+    cards = "".join(f'<div class="why-card rv"><h3>{t}</h3><p>{d}</p></div>' for t, d in items)
+    return f'<section class="sec"><div class="wrap">{sec_head("Por que escolher", "O que as clientes <em>encontram</em> aqui")}<div class="why">{cards}</div></div></section>'
+
 def review_invite():
     return (f'<section class="sec blush"><div class="wrap narrow center rv"><span class="eyebrow">Sua opinião</span><h2>Já foi atendida? <em>Conte como foi</em></h2>'
             f'<p class="lead">Sua avaliação no Google ajuda outras mulheres a me encontrarem e me motiva a continuar cuidando de cada olhar.</p>'
@@ -139,7 +149,7 @@ def home():
 {sec_head("Blog", "Tudo sobre <em>extensão de cílios</em>", "Guias práticos para você escolher a técnica, cuidar dos cílios e tirar dúvidas.")}
 {post_cards(ARTICLES[:3])}
 <p class="center rv" style="margin-top:34px"><a class="more" href="/blog/">Ver todos os artigos</a></p></div></section>'''
-    body = hero + ticker + services + how + about + results + testimonials_section() + areas + faq + blog + final_cta()
+    body = hero + ticker + services + how + about + results + (testimonials_section() or why_section()) + areas + faq + blog + final_cta()
     add("/", "Extensão de Cílios em Cosmos e Campo Grande RJ | Lavinia Monteiro",
         "Lash designer a domicílio em Cosmos, Campo Grande, Paciência, Inhoaíba e Santa Cruz (RJ). Fio a fio, volumes e Fox Eyes. Agende pelo WhatsApp.",
         body, [SCH_BUSINESS, WEBSITE, faq_schema(HOME_FAQ)])
