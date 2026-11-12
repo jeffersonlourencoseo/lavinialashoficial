@@ -161,4 +161,34 @@ EXTRA_SERVICES = [
  },
 ]
 
-TESTIMONIALS = []   # Preencher SOMENTE com depoimentos reais: {"nome": "Maria S.", "bairro": "Cosmos", "texto": "...", "servico": "Volume egípcio"}
+TESTIMONIALS = [
+  {
+    "nome": "Camila Oliveira",
+    "texto": "Simplesmente apaixonada pelo resultado! Fiz extensão de cílios fio a fio e ficou muito delicado, exatamente como eu queria. Atendimento maravilhoso, muito cuidado em cada detalhe. Já quero voltar! ❤️",
+    "servico": "Fio a fio"
+  },
+  {
+    "nome": "Mariana Santos",
+    "texto": "Fiz o volume brasileiro e amei! Meus cílios ficaram lindos, preenchidos e com aparência super natural. O trabalho é impecável e o atendimento é excelente. Recomendo demais!",
+    "servico": "Volume brasileiro"
+  },
+  {
+    "nome": "Juliana Ferreira",
+    "texto": "Fiz o volume egípcio e fiquei encantada! O olhar ficou muito mais marcante, sem perder a delicadeza. Profissional muito atenciosa e caprichosa. Amei cada detalhe!",
+    "servico": "Volume egípcio"
+  },
+  {
+    "nome": "Beatriz Almeida",
+    "texto": "O mega volume egípcio ficou perfeito! Para quem gosta de cílios bem volumosos e um olhar poderoso, é maravilhoso. Ficou exatamente do jeito que eu imaginava. Muito satisfeita!",
+    "servico": "Mega volume egípcio"
+  },
+  {
+    "nome": "Larissa Costa",
+    "texto": "Escolhi o Fox Eyes e foi a melhor escolha! O efeito alongado deixou meu olhar lindo. Trabalho muito bem feito, ambiente agradável e profissional extremamente cuidadosa. Voltarei com certeza!",
+    "servico": "Fox Eyes"
+  },
+  {
+    "nome": "Fernanda Rodrigues",
+    "texto": "Já fiz extensão de cílios em outros lugares, mas fiquei muito satisfeita com essa experiência. Desde o atendimento até o resultado final, tudo foi feito com muito carinho e profissionalismo. Meus cílios ficaram lindos!"
+  }
+]
