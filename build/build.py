@@ -394,6 +394,146 @@ def contact():
         "Agende sua extensão de cílios a domicílio em Cosmos, Campo Grande e região (RJ). Fale com a Lavinia pelo WhatsApp (21) 98842-0844.",
         body + final_cta("Pronta para o seu novo olhar?"), [SCH_BUSINESS, faq_schema(faq), crumbs_schema(trail)])
 
+
+# ===================== PÁGINAS LEGAIS =====================
+LEGAL_UPDATED = "12 de novembro de 2026"
+
+def legal_page(slug, title, desc, h1, body_html):
+    path = f"/{slug}/"
+    trail = [("Início", "/"), (h1, path)]
+    body = (f'<section class="phero"><div class="wrap narrow">{crumbs_html(trail)}<span class="eyebrow">Informações legais</span><h1>{h1}</h1>'
+            f'<p class="lead">Última atualização: {LEGAL_UPDATED}.</p></div></section>'
+            f'<section class="sec"><div class="wrap narrow prose legalpage">{body_html}</div></section>')
+    add(path, title, desc, body, [SCH_BUSINESS, crumbs_schema(trail)])
+
+def legal():
+    contato = (f'<p>Para qualquer assunto sobre esta página ou sobre os seus dados, fale com a Lavinia pelo WhatsApp '
+               f'<a href="{WA_URL}" target="_blank" rel="noopener">{PHONE_DISPLAY}</a>.</p>')
+    legal_page("politica-de-privacidade", "Política de Privacidade | Lavinia Monteiro Lash Designer",
+        "Como o site da Lavinia Monteiro | Lash Designer trata dados pessoais, de acordo com a LGPD (Lei 13.709/2018).",
+        "Política de Privacidade", f"""
+<p>Esta Política explica como o site <strong>{SITE_URL}</strong>, de <strong>Lavinia Monteiro | Lash Designer</strong>, trata dados pessoais, em conformidade com a Lei Geral de Proteção de Dados (LGPD, Lei nº 13.709/2018).</p>
+
+<h2>1. Quem é a responsável</h2>
+<p>A controladora dos dados é Lavinia Monteiro, lash designer com atendimento a domicílio em Cosmos, no Rio de Janeiro (RJ). Contato: WhatsApp {PHONE_DISPLAY}.</p>
+
+<h2>2. Quais dados são tratados</h2>
+<ul>
+<li><strong>Dados que você envia ao chamar no WhatsApp ou Instagram:</strong> nome, telefone, bairro, endereço aproximado para o atendimento, preferências de serviço e as informações que você escolher compartilhar (por exemplo, alergias ou sensibilidade nos olhos). Essa conversa acontece nas plataformas WhatsApp e Instagram, e não dentro deste site.</li>
+<li><strong>Dados técnicos de acesso:</strong> como em qualquer site, o servidor de hospedagem pode registrar de forma automática dados como endereço IP, data e hora, páginas acessadas, tipo de navegador e dispositivo. Esses registros servem para segurança e funcionamento do site.</li>
+</ul>
+<p>Este site <strong>não possui formulários, cadastro, comentários nem área de login</strong> e não coleta dados pessoais diretamente por campos de preenchimento.</p>
+
+<h2>3. Para que usamos os dados</h2>
+<ul>
+<li>Responder mensagens, combinar horários e realizar o atendimento (execução do serviço solicitado);</li>
+<li>Prestar orientações sobre cuidados antes e depois do procedimento;</li>
+<li>Garantir a segurança e o bom funcionamento do site;</li>
+<li>Cumprir obrigações legais, quando houver.</li>
+</ul>
+
+<h2>4. Bases legais</h2>
+<p>O tratamento ocorre com base na <strong>execução de contrato ou de procedimentos preliminares</strong> a pedido da cliente, no <strong>consentimento</strong> (quando você compartilha informações voluntariamente, inclusive de saúde, como alergias), no <strong>legítimo interesse</strong> (segurança do site) e no <strong>cumprimento de obrigação legal</strong>.</p>
+
+<h2>5. Com quem os dados podem ser compartilhados</h2>
+<p>Não vendemos nem cedemos seus dados. Eles podem ser tratados por prestadores necessários ao funcionamento dos canais: a hospedagem do site (Vercel Inc.), o WhatsApp e o Instagram (Meta Platforms) e o Google Maps (Google). Cada um deles tem a sua própria política de privacidade.</p>
+
+<h2>6. Por quanto tempo guardamos</h2>
+<p>Mantemos as informações pelo tempo necessário para o atendimento e para o relacionamento com a cliente, e por prazos legais quando aplicável. Você pode pedir a exclusão a qualquer momento, observadas as obrigações legais.</p>
+
+<h2>7. Fotos de clientes</h2>
+<p>Fotos de resultados exibidas neste site são publicadas somente com a autorização da cliente. Se você aparece em uma foto e deseja que ela seja removida, é só pedir pelo contato abaixo.</p>
+
+<h2>8. Seus direitos</h2>
+<p>Conforme o art. 18 da LGPD, você pode solicitar: confirmação de que tratamos seus dados; acesso; correção de dados incompletos ou desatualizados; anonimização, bloqueio ou eliminação; portabilidade; informação sobre compartilhamento; e revogação do consentimento. Você também pode reclamar à Autoridade Nacional de Proteção de Dados (ANPD).</p>
+
+<h2>9. Segurança</h2>
+<p>O site é servido por conexão segura (HTTPS) e adotamos medidas razoáveis para proteger as informações. Nenhum sistema é totalmente imune a riscos, mas tratamos os dados com cuidado e apenas para as finalidades descritas.</p>
+
+<h2>10. Links para outros sites</h2>
+<p>O site contém links para serviços de terceiros (WhatsApp, Instagram e Google Maps). Ao clicar, você passa a ser regido pelas políticas dessas plataformas.</p>
+
+<h2>11. Crianças e adolescentes</h2>
+<p>Os serviços são destinados a pessoas adultas. Dados de menores só devem ser compartilhados com autorização de um responsável.</p>
+
+<h2>12. Alterações desta Política</h2>
+<p>Podemos atualizar esta Política para refletir mudanças no site ou na lei. A data da última atualização fica sempre no topo desta página.</p>
+
+<h2>13. Contato</h2>
+{contato}
+<p>Veja também a <a href="/politica-de-cookies/">Política de Cookies</a> e os <a href="/termos-de-uso/">Termos de Uso</a>.</p>
+""")
+
+    legal_page("politica-de-cookies", "Política de Cookies | Lavinia Monteiro Lash Designer",
+        "Saiba quais cookies o site da Lavinia Monteiro | Lash Designer utiliza (atualmente nenhum cookie de rastreamento) e como gerenciá-los.",
+        "Política de Cookies", f"""
+<p>Esta Política explica o uso de cookies e tecnologias semelhantes no site <strong>{SITE_URL}</strong>.</p>
+
+<h2>1. O que são cookies</h2>
+<p>Cookies são pequenos arquivos que um site pode salvar no seu navegador para lembrar preferências, medir audiência ou exibir anúncios.</p>
+
+<h2>2. Quais cookies este site usa</h2>
+<p>Na data desta atualização, <strong>este site não define cookies próprios nem utiliza cookies de rastreamento, publicidade ou análise de audiência</strong> (como Google Analytics ou Meta Pixel). As fontes e imagens são servidas pelo próprio site, sem recursos de terceiros que gravem cookies.</p>
+<table>
+<thead><tr><th>Tipo</th><th>Utilizado?</th><th>Finalidade</th></tr></thead>
+<tbody>
+<tr><td>Estritamente necessários</td><td>Não</td><td>O site funciona sem eles</td></tr>
+<tr><td>Preferências</td><td>Não</td><td>Nenhuma preferência é gravada</td></tr>
+<tr><td>Estatísticas / análise</td><td>Não</td><td>Nenhuma ferramenta de análise ativa</td></tr>
+<tr><td>Marketing / publicidade</td><td>Não</td><td>Nenhum pixel ou anúncio ativo</td></tr>
+</tbody></table>
+<p>Por isso, o site <strong>não exibe banner de consentimento de cookies</strong>.</p>
+
+<h2>3. Cookies de terceiros ao clicar em links</h2>
+<p>Ao clicar em links para o WhatsApp, o Instagram ou o Google Maps, você sai deste site e acessa plataformas que podem usar seus próprios cookies, de acordo com as respectivas políticas. A hospedagem do site também pode registrar dados técnicos de acesso (como o endereço IP) em registros de servidor, sem uso de cookies.</p>
+
+<h2>4. Se passarmos a usar cookies no futuro</h2>
+<p>Caso o site passe a utilizar ferramentas de análise ou marketing, esta Política será atualizada e, quando exigido pela LGPD, pediremos o seu consentimento antes de ativar cookies não essenciais.</p>
+
+<h2>5. Como gerenciar cookies no navegador</h2>
+<p>Você pode bloquear ou apagar cookies a qualquer momento nas configurações do seu navegador (Chrome, Safari, Firefox, Edge). Os caminhos variam por navegador, em geral em Configurações &gt; Privacidade e segurança.</p>
+
+<h2>6. Contato</h2>
+{contato}
+<p>Veja também a <a href="/politica-de-privacidade/">Política de Privacidade</a>.</p>
+""")
+
+    legal_page("termos-de-uso", "Termos de Uso | Lavinia Monteiro Lash Designer",
+        "Termos de uso do site da Lavinia Monteiro | Lash Designer: conteúdo, links externos, propriedade intelectual e agendamento.",
+        "Termos de Uso", f"""
+<p>Ao acessar o site <strong>{SITE_URL}</strong>, você concorda com os termos abaixo.</p>
+
+<h2>1. Sobre o site</h2>
+<p>Este site apresenta os serviços de extensão de cílios (fio a fio, volume egípcio, volume brasileiro, mega volume egípcio, Fox Eyes, manutenção e remoção) de Lavinia Monteiro | Lash Designer, com atendimento a domicílio em Cosmos, Campo Grande (RJ), Paciência, Senador Vasconcelos, Inhoaíba e Santa Cruz.</p>
+
+<h2>2. Caráter informativo</h2>
+<p>Os textos e os artigos do blog têm finalidade informativa e <strong>não substituem avaliação profissional nem orientação médica</strong>. Em caso de vermelhidão, coceira, ardência, inchaço ou qualquer desconforto nos olhos, procure um profissional de saúde.</p>
+
+<h2>3. Resultados</h2>
+<p>As fotos mostram resultados reais de atendimentos, mas o resultado varia de pessoa para pessoa, conforme o formato dos olhos, a condição dos cílios naturais, a técnica escolhida e os cuidados após a aplicação. Não há garantia de resultado idêntico ao das imagens.</p>
+
+<h2>4. Agendamento, valores e horários</h2>
+<p>Agendamentos, valores, horários disponíveis e eventuais condições são combinados diretamente com a Lavinia pelo WhatsApp. As informações do site não constituem proposta comercial vinculante.</p>
+
+<h2>5. Propriedade intelectual</h2>
+<p>Textos, fotos, logotipo, identidade visual e demais conteúdos deste site pertencem à Lavinia Monteiro | Lash Designer ou são usados com autorização. É proibida a reprodução, total ou parcial, sem permissão prévia, salvo citações com indicação da fonte.</p>
+
+<h2>6. Links externos</h2>
+<p>O site pode conter links para WhatsApp, Instagram, Google Maps e outros serviços de terceiros. Não controlamos esses ambientes e não nos responsabilizamos pelo seu conteúdo ou pelas suas políticas.</p>
+
+<h2>7. Disponibilidade</h2>
+<p>Buscamos manter o site sempre disponível e atualizado, mas ele pode ficar temporariamente indisponível ou conter informações desatualizadas.</p>
+
+<h2>8. Privacidade e cookies</h2>
+<p>O tratamento de dados está descrito na <a href="/politica-de-privacidade/">Política de Privacidade</a> e na <a href="/politica-de-cookies/">Política de Cookies</a>.</p>
+
+<h2>9. Alterações e lei aplicável</h2>
+<p>Estes Termos podem ser atualizados a qualquer momento, e a versão vigente é sempre a publicada nesta página. Eles são regidos pelas leis da República Federativa do Brasil.</p>
+
+<h2>10. Contato</h2>
+{contato}
+""")
+
 # ===================== EXTRAS =====================
 def extras():
     # 404
@@ -446,5 +586,5 @@ if __name__ == "__main__":
     for d in ("servicos", "atendimento", "blog", "clientes", "quem-sou", "contato"):
         shutil.rmtree(os.path.join(OUT, d), ignore_errors=True)
     from layout import _lashes, _arc
-    home(); about(); services_pages(); areas(); clients(); blog(); contact(); extras()
+    home(); about(); services_pages(); areas(); clients(); blog(); contact(); legal(); extras()
     print(f"OK: {len(pages)} páginas | SITE_URL={SITE_URL}")

@@ -328,3 +328,8 @@ section{position:relative}
 .sec:not(.plum){content-visibility:auto;contain-intrinsic-size:auto 640px}
 /* acima da dobra: sem animação de entrada (melhora o LCP) */
 .js .hero .rv,.js .phero .rv{opacity:1;transform:none;transition:none}
+
+.footer .legal{flex-basis:100%;display:flex;flex-wrap:wrap;justify-content:center;gap:6px 22px;padding-top:4px}
+.footer .legal a{font-size:.84rem;text-decoration:underline;text-underline-offset:3px}
+.footer .bar .credit{padding-top:2px}
+.legalpage h2{font-size:clamp(1.5rem,2.4vw,1.9rem);margin-top:1.8em}
