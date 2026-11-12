@@ -8,30 +8,30 @@ from blog import ARTICLES, CTA as BLOG_CTA
 from PIL import Image, ImageDraw
 from html import escape
 
-PHOTO_ALT = {
- "01": "Olho verde com extensão de cílios bem preenchida e sobrancelha desenhada, em cliente de Lavinia Monteiro",
- "02": "Olho castanho com extensão de cílios volumosa e sobrancelha definida",
- "03": "Cliente sorrindo com extensão de cílios e pontas azuladas, olhar marcante",
- "04": "Extensão de cílios curvada e natural em olho castanho, vista de perto",
- "05": "Retrato de cliente com extensão de cílios em volume e olhar marcante",
- "06": "Olhar marcante com extensão de cílios longos e sobrancelha de impacto",
- "07": "Extensão de cílios em volume sobre olho castanho, vista de perto",
- "08": "Retrato de cliente com cachos e extensão de cílios elegante",
- "09": "Detalhe de extensão de cílios cheia e uniforme em cliente de Cosmos RJ",
- "10": "Detalhe de extensão de cílios com sobrancelha penteada e olhar profundo",
-}
-def cli(n, alt=None, **kw):
-    return pic(f"extensao-de-cilios-cosmos-rj-{n}", alt or PHOTO_ALT[n], **kw)
+from photos import PHOTO_ALT, TECH_PHOTOS, GENERAL, HOME_GALLERY
 
-GALLERY = ["08", "02", "05", "01", "04", "03", "06", "09", "07", "10"]
-
-def mosaic(nums):
-    out = '<div class="mosaic">'
-    for n in nums:
-        (w, h), _ = img_size(f"extensao-de-cilios-cosmos-rj-{n}")
-        out += (f'<figure class="rv"><button type="button" data-lb="/assets/img/extensao-de-cilios-cosmos-rj-{n}.webp" data-alt="{escape(PHOTO_ALT[n])}" aria-label="Ampliar foto">'
-                f'{cli(n, sizes="(min-width:980px) 33vw, (min-width:560px) 50vw, 100vw")}</button></figure>')
+def mosaic(ids, grid=False):
+    few = " few" if len(ids) <= 2 else ""
+    out = f'<div class="mosaic{few}{" grid" if grid else ""}">'
+    for pid in ids:
+        out += (f'<figure class="rv"><button type="button" data-lb="/assets/img/{pid}.webp" data-alt="{escape(PHOTO_ALT[pid])}" aria-label="Ampliar foto">'
+                f'{pic(pid, PHOTO_ALT[pid], sizes="(min-width:980px) 33vw, (min-width:560px) 50vw, 100vw")}</button></figure>')
     return out + "</div>"
+
+def results_section(s):
+    ids = TECH_PHOTOS.get(s["slug"])
+    if not ids:
+        return ""
+    return (f'<section class="sec"><div class="wrap">{sec_head("Resultados", "Resultados de <em>" + s["short"].lower().replace("volume fox eyes", "Fox Eyes") + "</em> em Cosmos e Campo Grande", "Fotos de atendimentos reais. Toque para ampliar.")}'
+            f'{mosaic(ids, True)}<div class="btns" style="justify-content:center;margin-top:40px">{wa_btn("Quero esse resultado")}</div></div></section>')
+
+def clients_gallery():
+    out = ""
+    order = [("volume-brasileiro", "Volume brasileiro"), ("volume-egipcio", "Volume egípcio"), ("mega-volume-egipcio", "Mega volume egípcio"), ("volume-fox-eyes", "Fox Eyes")]
+    for slug, nome in order:
+        out += (f'<div class="gal-head rv"><h2>{nome}</h2><a class="more" href="/servicos/{slug}/">Ver o serviço</a></div>{mosaic(TECH_PHOTOS[slug], True)}')
+    out += f'<div class="gal-head rv"><h2>Mais resultados</h2></div>{mosaic(GENERAL, True)}'
+    return out
 
 def service_cards(exclude=None, items=None):
     lst = [x for x in (items or SERVICES) if x["slug"] != exclude]
@@ -136,7 +136,7 @@ def home():
 <a class="btn ghost" href="/quem-sou/">Conheça minha história</a></div></div></div></section>'''
     results = f'''<section class="sec blush"><div class="wrap">
 {sec_head("Clientes", "Olhares que <em>saem</em> daqui", "Alguns resultados dos atendimentos. Toque para ampliar.")}
-{mosaic(GALLERY[:6])}
+{mosaic(HOME_GALLERY)}
 <div class="btns" style="justify-content:center;margin-top:44px"><a class="btn ghost" href="/clientes/">Ver mais resultados</a>{ig_btn("Ver no Instagram")}</div></div></section>'''
     areas = f'''<section class="sec"><div class="wrap">
 {sec_head("Onde atendo", "Na sua casa, em <em>seis bairros</em> do Rio", "Atendimento a domicílio a partir de Cosmos. Confira os bairros e chame no WhatsApp se o seu não estiver na lista.")}
@@ -245,6 +245,7 @@ def services_pages():
 <div class="media arch2 rv d1">{pic(s["photo"], "Resultado de " + s["name"].lower() + " por Lavinia Monteiro, lash designer em Cosmos RJ", sizes="(min-width:980px) 520px, 90vw", eager=True, style="aspect-ratio:4/5;object-position:" + s["pos"])}</div>
 </div></div></section>
 <section class="sec"><div class="wrap narrow prose rv"><h2>{s["what_h2"]}</h2>{what}</div></section>
+{results_section(s)}
 <section class="sec blush"><div class="wrap"><div class="split">
 <div class="rv"><span class="eyebrow">Para quem é</span><h2>{s.get("for_h2", "Essa técnica é <em>para você</em> se…")}</h2>{checks(s["for"])}</div>
 <div class="rv d1 prose"><h3>Atendimento em casa, em Cosmos e Campo Grande</h3>
@@ -335,7 +336,7 @@ def clients():
     body = f'''<section class="phero"><div class="wrap center">{crumbs_html(trail)}<span class="eyebrow">Clientes</span>
 <h1>Resultados de <em>extensão de cílios</em> das minhas clientes</h1>
 <p class="lead">Olhares reais, atendidos em casa, em Cosmos, Campo Grande e região. Toque em uma foto para ampliar.</p></div></section>
-<section class="sec"><div class="wrap">{mosaic(GALLERY)}
+<section class="sec"><div class="wrap">{clients_gallery()}
 <div class="btns" style="justify-content:center;margin-top:48px">{wa_btn("Quero o meu olhar assim")}{ig_btn("Mais fotos no Instagram")}</div></div></section>
 <section class="sec blush"><div class="wrap">{sec_head("Escolha a sua", "Cada olhar pede um <em>efeito</em>")}{service_cards()}</div></section>''' + testimonials_section() + review_invite()
     add("/clientes/", "Clientes e Resultados | Extensão de Cílios em Cosmos RJ",

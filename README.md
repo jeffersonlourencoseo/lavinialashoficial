@@ -21,6 +21,7 @@ Atendimento a domicílio em Cosmos, Campo Grande (RJ), Paciência, Senador Vasco
 
 ## Editar e ver local
 ```bash
+python build/process_photos.py   # converte as fotos de "Nova pasta" (nomeadas por serviço) em WebP
 python build/build.py          # regenera site/ (requer Python + Pillow)
 python -m http.server 8080 --directory site
 ```

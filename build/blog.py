@@ -11,7 +11,7 @@ ARTICLES = [
  "h1": "Quanto custa a extensão de cílios? O que muda o valor",
  "title": "Quanto Custa Extensão de Cílios? O Que Muda o Valor",
  "desc": "Entenda o que influencia o preço da extensão de cílios: técnica, tempo, materiais e manutenção. Veja como comparar valores sem cair em armadilhas.",
- "tag": "Valores", "min": 5, "photo": "extensao-de-cilios-cosmos-rj-04",
+ "tag": "Valores", "min": 5, "photo": "mega-volume-egipcio-cosmos-rj-01",
  "faq": [
   ("Quanto custa uma extensão de cílios?", "O valor varia conforme a técnica (fio a fio, volume ou mega volume), o tempo de aplicação, os materiais usados e a experiência da profissional. Por isso não existe um preço único: o ideal é pedir um orçamento informando o efeito que você deseja."),
   ("Extensão de cílios barata vale a pena?", "Preço muito abaixo do mercado pode indicar fios e colas de qualidade duvidosa ou pressa na aplicação. Compare sempre a técnica, os materiais e o cuidado, e não apenas o valor."),
@@ -55,7 +55,7 @@ ARTICLES = [
  "h1": "Fio a fio, volume egípcio, volume brasileiro e mega volume: qual escolher?",
  "title": "Fio a Fio, Volume Egípcio ou Brasileiro: Qual Escolher?",
  "desc": "Guia completo das técnicas de extensão de cílios: fio a fio, volume egípcio, volume brasileiro, mega volume e Fox Eyes. Veja as diferenças e escolha a ideal.",
- "tag": "Técnicas", "min": 6, "photo": "extensao-de-cilios-cosmos-rj-02",
+ "tag": "Técnicas", "min": 6, "photo": "volume-brasileiro-cosmos-rj-02",
  "faq": [
   ("Qual a diferença entre fio a fio e volume egípcio?", "No fio a fio, cada cílio natural recebe um fio. No volume egípcio, recebe um leque de fios muito finos, o que dá mais preenchimento e densidade."),
   ("Qual técnica de extensão de cílios é a mais natural?", "O fio a fio é a técnica mais discreta e natural, por usar um único fio em cada cílio natural."),
@@ -105,7 +105,7 @@ ARTICLES = [
  "h1": "Cuidados com a extensão de cílios: o que fazer e o que evitar",
  "title": "Cuidados com Extensão de Cílios: Guia Completo",
  "desc": "O que não pode fazer com extensão de cílios? Veja os principais cuidados para o primeiro dia, a rotina de limpeza e como fazer as extensões durarem mais.",
- "tag": "Cuidados", "min": 6, "photo": "extensao-de-cilios-cosmos-rj-07",
+ "tag": "Cuidados", "min": 6, "photo": "extensao-de-cilios-cosmos-rj-03",
  "faq": [
   ("O que não pode fazer com extensão de cílios?", "Evite puxar ou arrancar os fios, usar curvex, passar produtos oleosos na região dos olhos e esfregar os olhos com força. Nas primeiras 24 a 48 horas, siga também a orientação da profissional sobre contato com água e vapor."),
   ("Posso molhar a extensão de cílios?", "Sim, depois do período inicial indicado pela profissional, você pode lavar o rosto normalmente, com cuidado para não esfregar. Nas primeiras horas, evite molhar para a cola fixar bem."),
@@ -161,7 +161,7 @@ ARTICLES = [
  "h1": "Manutenção de cílios: quando fazer e por que ela é importante",
  "title": "Manutenção de Cílios: Quando Fazer e Por Quê",
  "desc": "Por que a extensão de cílios precisa de manutenção? Entenda o ciclo natural dos cílios, quando fazer a manutenção e como manter o olhar sempre bonito.",
- "tag": "Manutenção", "min": 4, "photo": "extensao-de-cilios-cosmos-rj-09",
+ "tag": "Manutenção", "min": 4, "photo": "extensao-de-cilios-cosmos-rj-04",
  "faq": [
   ("De quanto em quanto tempo fazer manutenção de cílios?", "Em geral, a manutenção é feita em intervalos de algumas semanas, de acordo com o ciclo natural dos cílios e a técnica usada. A sua profissional indica o intervalo ideal para você."),
  ],
@@ -196,7 +196,7 @@ ARTICLES = [
  "h1": "Extensão de cílios a domicílio: como funciona e como se preparar",
  "title": "Extensão de Cílios a Domicílio: Como Funciona",
  "desc": "Como funciona a extensão de cílios a domicílio? Vantagens, como preparar o ambiente e o que fazer antes do atendimento em casa, em Cosmos e Campo Grande RJ.",
- "tag": "Atendimento", "min": 5, "photo": "extensao-de-cilios-cosmos-rj-08",
+ "tag": "Atendimento", "min": 5, "photo": "fox-eyes-cosmos-rj-02",
  "faq": [
   ("Como funciona a extensão de cílios a domicílio?", "A lash designer vai até a sua casa, em horário marcado, com o material necessário. Você só precisa de um local confortável e bem iluminado, onde possa ficar deitada ou reclinada."),
   ("O que preciso para fazer extensão de cílios em casa?", "Um local confortável, com boa iluminação, e você de rosto limpo, sem maquiagem nos olhos e sem lentes de contato."),
@@ -243,7 +243,7 @@ ARTICLES = [
  "h1": "Fox Eyes: o que é e para quem combina esse efeito nos cílios",
  "title": "Fox Eyes: O Que É na Extensão de Cílios e Para Quem Combina",
  "desc": "O que é o efeito Fox Eyes (olhar de raposa) na extensão de cílios? Entenda o mapeamento, como fica o resultado e para quem combina.",
- "tag": "Tendências", "min": 4, "photo": "extensao-de-cilios-cosmos-rj-06",
+ "tag": "Tendências", "min": 4, "photo": "fox-eyes-cosmos-rj-01",
  "faq": [
   ("O que é Fox Eyes?", "Fox Eyes (olhar de raposa) é um mapeamento de extensão de cílios que concentra os fios mais longos no canto externo dos olhos, alongando e levantando visualmente o olhar."),
  ],
@@ -275,7 +275,7 @@ ARTICLES = [
  "h1": "Cílios para noivas, formaturas e festas: quando agendar e como escolher",
  "title": "Cílios para Noivas, Formaturas e Festas: Quando Agendar",
  "desc": "Vai casar, se formar ou ir a uma festa? Veja quando agendar a extensão de cílios, como escolher o efeito e dicas para ficar linda sem imprevistos.",
- "tag": "Ocasiões", "min": 5, "photo": "extensao-de-cilios-cosmos-rj-03",
+ "tag": "Ocasiões", "min": 5, "photo": "volume-egipcio-cosmos-rj-01",
  "faq": [
   ("Quando fazer a extensão de cílios antes do casamento?", "O ideal é agendar com antecedência e fazer a extensão alguns dias antes do evento, para já estar acostumada com o visual e ter tempo de ajustar algo, se necessário."),
  ],
@@ -311,7 +311,7 @@ ARTICLES = [
  "h1": "Mitos e verdades sobre extensão de cílios",
  "title": "Mitos e Verdades Sobre Extensão de Cílios",
  "desc": "Extensão de cílios estraga os cílios naturais? Dói? Pode molhar? Veja mitos e verdades sobre extensão de cílios e tire suas dúvidas antes de fazer.",
- "tag": "Dúvidas", "min": 5, "photo": "extensao-de-cilios-cosmos-rj-10",
+ "tag": "Dúvidas", "min": 5, "photo": "extensao-de-cilios-cosmos-rj-02",
  "faq": [
   ("Extensão de cílios estraga os cílios naturais?", "Quando é feita com técnica correta, fios leves e na quantidade adequada, não deve estragar. O dano costuma vir de aplicação inadequada, fios pesados demais ou de puxar e arrancar as extensões."),
  ],

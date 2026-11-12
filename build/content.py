@@ -24,7 +24,7 @@ SERVICES = [
  },
  {
   "slug": "volume-egipcio", "what_h2": "O que é o volume egípcio", "short": "Volume egípcio", "name": "Volume egípcio",
-  "photo": "extensao-de-cilios-cosmos-rj-02", "pos": "40% 40%",
+  "photo": "volume-egipcio-cosmos-rj-01", "pos": "50% 35%",
   "card": "Leques leves de fios finos para mais preenchimento e densidade, com acabamento sofisticado.",
   "title": "Volume Egípcio em Cosmos e Campo Grande RJ | A Domicílio",
   "desc": "Volume egípcio a domicílio em Cosmos e Campo Grande, RJ. Mais preenchimento que o fio a fio, com leveza e acabamento sofisticado. Agende.",
@@ -43,7 +43,7 @@ SERVICES = [
  },
  {
   "slug": "volume-brasileiro", "what_h2": "O que é o volume brasileiro", "short": "Volume brasileiro", "name": "Volume brasileiro",
-  "photo": "extensao-de-cilios-cosmos-rj-05", "pos": "50% 35%",
+  "photo": "volume-brasileiro-cosmos-rj-01", "pos": "50% 45%",
   "card": "Fios em formato Y que dão efeito preenchido, leve e natural, com muito conforto.",
   "title": "Volume Brasileiro em Cosmos e Campo Grande RJ | A Domicílio",
   "desc": "Volume brasileiro a domicílio em Cosmos e Campo Grande, RJ. Fios em Y, efeito preenchido, leve e natural. Agende pelo WhatsApp.",
@@ -62,7 +62,7 @@ SERVICES = [
  },
  {
   "slug": "mega-volume-egipcio", "what_h2": "O que é o mega volume egípcio", "short": "Mega volume egípcio", "name": "Mega volume egípcio",
-  "photo": "extensao-de-cilios-cosmos-rj-01", "pos": "50% 40%",
+  "photo": "mega-volume-egipcio-cosmos-rj-01", "pos": "50% 40%",
   "card": "Leques de fios ultrafinos para um olhar bem cheio, denso e marcante, sem perder a leveza.",
   "title": "Mega Volume Egípcio em Cosmos e Campo Grande RJ",
   "desc": "Mega volume egípcio a domicílio em Cosmos e Campo Grande, RJ. Olhar cheio, denso e marcante, com aplicação cuidadosa. Agende no WhatsApp.",
@@ -81,7 +81,7 @@ SERVICES = [
  },
  {
   "slug": "volume-fox-eyes", "what_h2": "O que é o Fox Eyes na extensão de cílios", "short": "Volume Fox Eyes", "name": "Volume Fox Eyes",
-  "photo": "extensao-de-cilios-cosmos-rj-06", "pos": "50% 45%",
+  "photo": "fox-eyes-cosmos-rj-02", "pos": "50% 45%",
   "card": "Mapeamento que alonga e levanta o canto externo dos olhos, para um olhar de raposa sofisticado.",
   "title": "Fox Eyes em Cosmos e Campo Grande RJ | Cílios a Domicílio",
   "desc": "Volume Fox Eyes a domicílio em Cosmos e Campo Grande, RJ. Mapeamento que alonga e levanta o olhar. Agende pelo WhatsApp.",
@@ -119,7 +119,7 @@ STEPS = [
 EXTRA_SERVICES = [
  {
   "slug": "manutencao-de-cilios", "what_h2": "O que é a manutenção de cílios", "short": "Manutenção", "name": "Manutenção de cílios",
-  "photo": "extensao-de-cilios-cosmos-rj-07", "pos": "50% 45%",
+  "photo": "extensao-de-cilios-cosmos-rj-03", "pos": "50% 40%",
   "card": "Reponho os fios que caíram e devolvo o preenchimento e o desenho do seu olhar.",
   "title": "Manutenção de Cílios em Cosmos e Campo Grande RJ",
   "desc": "Manutenção de cílios a domicílio em Cosmos e Campo Grande, RJ. Reponho os fios que caíram e devolvo o preenchimento do olhar. Agende no WhatsApp.",
@@ -140,7 +140,7 @@ EXTRA_SERVICES = [
  },
  {
   "slug": "remocao-de-cilios", "what_h2": "O que é a remoção de extensão de cílios", "short": "Remoção", "name": "Remoção de cílios",
-  "photo": "extensao-de-cilios-cosmos-rj-10", "pos": "50% 45%",
+  "photo": "extensao-de-cilios-cosmos-rj-02", "pos": "50% 40%",
   "card": "Remoção cuidadosa das extensões, para preservar seus cílios naturais.",
   "title": "Remoção de Cílios em Cosmos e Campo Grande RJ | Domicílio",
   "desc": "Remoção de extensão de cílios a domicílio em Cosmos e Campo Grande, RJ, feita com cuidado para preservar seus cílios naturais. Agende no WhatsApp.",
