@@ -322,3 +322,4 @@ section{position:relative}
 .why-card p{color:var(--muted);margin:0;font-size:.97rem}
 @media (max-width:980px){.why-card{flex-basis:calc((100% - 22px) / 2)}}
 @media (max-width:560px){.why-card{flex-basis:100%}}
+.footer .bar .credit{flex-basis:100%;text-align:center;padding-top:6px;opacity:.85}

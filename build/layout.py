@@ -155,7 +155,7 @@ def footer():
 <li><a href="{MAPS}" target="_blank" rel="noopener">Perfil no Google Maps</a></li>
 <li>Cosmos, Rio de Janeiro - RJ<br><small>Atendimento a domicílio, com hora marcada</small></li></ul></div>
 </div>
-<div class="bar"><span>© 2026 Lavinia Monteiro | Lash Designer. Todos os direitos reservados.</span><span>Cosmos · Campo Grande · Paciência · Sen. Vasconcelos · Inhoaíba · Santa Cruz</span></div>
+<div class="bar"><span>© 2026 Lavinia Monteiro | Lash Designer. Todos os direitos reservados.</span><span>Cosmos · Campo Grande · Paciência · Sen. Vasconcelos · Inhoaíba · Santa Cruz</span><span class="credit">Site criado por Jefferson Lourenço</span></div>
 </div></footer>
 <a class="wafab" href="{WA_URL}" target="_blank" rel="noopener" aria-label="Chamar a Lavinia no WhatsApp">{ICON_WA}<span>Agendar no WhatsApp</span></a>'''
 

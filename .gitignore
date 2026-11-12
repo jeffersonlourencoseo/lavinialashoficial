@@ -12,3 +12,4 @@ __pycache__/
 node_modules/
 .vercel/
 .claude/
+palavras-chave-backlinks.md
