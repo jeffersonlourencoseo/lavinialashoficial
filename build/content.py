@@ -4,7 +4,7 @@
 SERVICES = [
  {
   "slug": "extensao-de-cilios-fio-a-fio", "what_h2": "O que é a extensão de cílios fio a fio", "short": "Fio a fio", "name": "Extensão de cílios fio a fio",
-  "photo": "extensao-de-cilios-cosmos-rj-04", "pos": "50% 45%",
+  "photo": "resultado-cilios-cosmos-rj-04", "pos": "50% 45%",
   "card": "Um fio sintético em cada cílio natural. Olhar delicado, leve e com cara de cílios bonitos de nascença.",
   "title": "Extensão de Cílios Fio a Fio em Cosmos e Campo Grande RJ",
   "desc": "Extensão de cílios fio a fio a domicílio em Cosmos e Campo Grande, RJ. Olhar natural, leve e aplicado com cuidado. Agende pelo WhatsApp.",
@@ -119,7 +119,7 @@ STEPS = [
 EXTRA_SERVICES = [
  {
   "slug": "manutencao-de-cilios", "what_h2": "O que é a manutenção de cílios", "short": "Manutenção", "name": "Manutenção de cílios",
-  "photo": "extensao-de-cilios-cosmos-rj-03", "pos": "50% 40%",
+  "photo": "resultado-cilios-cosmos-rj-03", "pos": "50% 40%",
   "card": "Reponho os fios que caíram e devolvo o preenchimento e o desenho do seu olhar.",
   "title": "Manutenção de Cílios em Cosmos e Campo Grande RJ",
   "desc": "Manutenção de cílios a domicílio em Cosmos e Campo Grande, RJ. Reponho os fios que caíram e devolvo o preenchimento do olhar. Agende no WhatsApp.",
@@ -140,7 +140,7 @@ EXTRA_SERVICES = [
  },
  {
   "slug": "remocao-de-cilios", "what_h2": "O que é a remoção de extensão de cílios", "short": "Remoção", "name": "Remoção de cílios",
-  "photo": "extensao-de-cilios-cosmos-rj-02", "pos": "50% 40%",
+  "photo": "resultado-cilios-cosmos-rj-02", "pos": "50% 40%",
   "card": "Remoção cuidadosa das extensões, para preservar seus cílios naturais.",
   "title": "Remoção de Cílios em Cosmos e Campo Grande RJ | Domicílio",
   "desc": "Remoção de extensão de cílios a domicílio em Cosmos e Campo Grande, RJ, feita com cuidado para preservar seus cílios naturais. Agende no WhatsApp.",

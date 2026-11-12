@@ -21,10 +21,10 @@ ITEMS = [
     ("volume egipcio.jpeg",          0, "volume-egipcio-cosmos-rj-01", False),
     ("volume egipcio (2).jpeg",     90, "volume-egipcio-cosmos-rj-02", True),
     # ainda sem rótulo de técnica (uso geral)
-    ("lavinia.lash.designer.jpeg", -90, "extensao-de-cilios-cosmos-rj-01", False),
-    ("lavinia.lash.designer_4.jpeg", 90, "extensao-de-cilios-cosmos-rj-02", False),
-    ("lavinia.lash.designer_7.jpeg",  0, "extensao-de-cilios-cosmos-rj-03", False),
-    ("lavinia.lash.designer_8.jpeg", 90, "extensao-de-cilios-cosmos-rj-04", False),
+    ("lavinia.lash.designer.jpeg", -90, "resultado-cilios-cosmos-rj-01", False),
+    ("lavinia.lash.designer_4.jpeg", 90, "resultado-cilios-cosmos-rj-02", False),
+    ("lavinia.lash.designer_7.jpeg",  0, "resultado-cilios-cosmos-rj-03", False),
+    ("lavinia.lash.designer_8.jpeg", 90, "resultado-cilios-cosmos-rj-04", False),
 ]
 
 def save(im, name, maxe=1400, q=80):
@@ -36,7 +36,7 @@ def save(im, name, maxe=1400, q=80):
 
 if __name__ == "__main__":
     # remove as versões antigas (nomes genéricos numerados da primeira versão)
-    for f in glob.glob(os.path.join(DST, "extensao-de-cilios-cosmos-rj-*.webp")):
+    for f in glob.glob(os.path.join(DST, "resultado-cilios-cosmos-rj-*.webp")):
         os.remove(f)
     for fn, rot, name, crop in ITEMS:
         im = Image.open(os.path.join(SRC, fn)).convert("RGB")

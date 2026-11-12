@@ -31,3 +31,4 @@ No Windows: `iniciar-site.bat`. Textos em `build/content.py` e `build/blog.py`; 
 - Confirmar o texto da página "Quem sou" (história desde 2024).
 - Valores, dias/horários e eventual taxa de deslocamento: seguem por WhatsApp (não estão no site de propósito).
 - Quando o GMN tiver avaliações reais, preencher `TESTIMONIALS`.
+- Nunca reutilizar o nome de uma imagem com conteúdo diferente: as imagens ficam em cache por 1 ano (ver vercel.json).

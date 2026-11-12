@@ -105,7 +105,7 @@ ARTICLES = [
  "h1": "Cuidados com a extensão de cílios: o que fazer e o que evitar",
  "title": "Cuidados com Extensão de Cílios: Guia Completo",
  "desc": "O que não pode fazer com extensão de cílios? Veja os principais cuidados para o primeiro dia, a rotina de limpeza e como fazer as extensões durarem mais.",
- "tag": "Cuidados", "min": 6, "photo": "extensao-de-cilios-cosmos-rj-03",
+ "tag": "Cuidados", "min": 6, "photo": "resultado-cilios-cosmos-rj-03",
  "faq": [
   ("O que não pode fazer com extensão de cílios?", "Evite puxar ou arrancar os fios, usar curvex, passar produtos oleosos na região dos olhos e esfregar os olhos com força. Nas primeiras 24 a 48 horas, siga também a orientação da profissional sobre contato com água e vapor."),
   ("Posso molhar a extensão de cílios?", "Sim, depois do período inicial indicado pela profissional, você pode lavar o rosto normalmente, com cuidado para não esfregar. Nas primeiras horas, evite molhar para a cola fixar bem."),
@@ -161,7 +161,7 @@ ARTICLES = [
  "h1": "Manutenção de cílios: quando fazer e por que ela é importante",
  "title": "Manutenção de Cílios: Quando Fazer e Por Quê",
  "desc": "Por que a extensão de cílios precisa de manutenção? Entenda o ciclo natural dos cílios, quando fazer a manutenção e como manter o olhar sempre bonito.",
- "tag": "Manutenção", "min": 4, "photo": "extensao-de-cilios-cosmos-rj-04",
+ "tag": "Manutenção", "min": 4, "photo": "resultado-cilios-cosmos-rj-04",
  "faq": [
   ("De quanto em quanto tempo fazer manutenção de cílios?", "Em geral, a manutenção é feita em intervalos de algumas semanas, de acordo com o ciclo natural dos cílios e a técnica usada. A sua profissional indica o intervalo ideal para você."),
  ],
@@ -311,7 +311,7 @@ ARTICLES = [
  "h1": "Mitos e verdades sobre extensão de cílios",
  "title": "Mitos e Verdades Sobre Extensão de Cílios",
  "desc": "Extensão de cílios estraga os cílios naturais? Dói? Pode molhar? Veja mitos e verdades sobre extensão de cílios e tire suas dúvidas antes de fazer.",
- "tag": "Dúvidas", "min": 5, "photo": "extensao-de-cilios-cosmos-rj-02",
+ "tag": "Dúvidas", "min": 5, "photo": "resultado-cilios-cosmos-rj-02",
  "faq": [
   ("Extensão de cílios estraga os cílios naturais?", "Quando é feita com técnica correta, fios leves e na quantidade adequada, não deve estragar. O dano costuma vir de aplicação inadequada, fios pesados demais ou de puxar e arrancar as extensões."),
  ],
