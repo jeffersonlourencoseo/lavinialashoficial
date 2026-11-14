@@ -2,18 +2,18 @@
 """Registro de fotos: texto alternativo e agrupamento por serviço."""
 
 PHOTO_ALT = {
-    "fox-eyes-cosmos-rj-01": "Cliente com extensão de cílios Fox Eyes e pontas azuladas, feita por Lavinia Monteiro em Cosmos, RJ",
-    "fox-eyes-cosmos-rj-02": "Cliente deitada com cílios Fox Eyes, olhar alongado, atendida em casa por Lavinia Monteiro",
-    "mega-volume-egipcio-cosmos-rj-01": "Olho castanho com mega volume egípcio, cílios cheios e densos, por Lavinia Monteiro",
+    "fox-eyes-cosmos-rj-01": "Cliente com extensão de cílios Fox Eyes e pontas azuladas, feita por Lavínia Monteiro em Cosmos, RJ",
+    "fox-eyes-cosmos-rj-02": "Cliente deitada com cílios Fox Eyes, olhar alongado, atendida em casa por Lavínia Monteiro",
+    "mega-volume-egipcio-cosmos-rj-01": "Olho castanho com mega volume egípcio, cílios cheios e densos, por Lavínia Monteiro",
     "mega-volume-egipcio-cosmos-rj-02": "Cliente com mega volume egípcio e cílios marcantes, atendimento a domicílio em Cosmos RJ",
-    "volume-brasileiro-cosmos-rj-01": "Olhar com volume brasileiro, cílios preenchidos e naturais, por Lavinia Monteiro",
+    "volume-brasileiro-cosmos-rj-01": "Olhar com volume brasileiro, cílios preenchidos e naturais, por Lavínia Monteiro",
     "volume-brasileiro-cosmos-rj-02": "Olho castanho com volume brasileiro preenchido e leve, feito em Cosmos RJ",
-    "volume-brasileiro-cosmos-rj-03": "Detalhe de volume brasileiro com cílios cheios e definidos em cliente de Lavinia Monteiro",
-    "volume-egipcio-cosmos-rj-01": "Cliente sorrindo com volume egípcio, olhar marcante e delicado, por Lavinia Monteiro",
+    "volume-brasileiro-cosmos-rj-03": "Detalhe de volume brasileiro com cílios cheios e definidos em cliente de Lavínia Monteiro",
+    "volume-egipcio-cosmos-rj-01": "Cliente sorrindo com volume egípcio, olhar marcante e delicado, por Lavínia Monteiro",
     "volume-egipcio-cosmos-rj-02": "Olhar com volume egípcio, cílios cheios e curvados, feito a domicílio em Cosmos RJ",
-    "resultado-cilios-cosmos-rj-01": "Olho verde com extensão de cílios bem preenchida e sobrancelha desenhada, por Lavinia Monteiro",
+    "resultado-cilios-cosmos-rj-01": "Olho verde com extensão de cílios bem preenchida e sobrancelha desenhada, por Lavínia Monteiro",
     "resultado-cilios-cosmos-rj-02": "Cliente com extensão de cílios em volume e sobrancelha de impacto",
-    "resultado-cilios-cosmos-rj-03": "Extensão de cílios em volume, vista de perto, cliente de Lavinia Monteiro em Cosmos RJ",
+    "resultado-cilios-cosmos-rj-03": "Extensão de cílios em volume, vista de perto, cliente de Lavínia Monteiro em Cosmos RJ",
     "resultado-cilios-cosmos-rj-04": "Olhar com extensão de cílios leve e natural, vista de perto",
 }
 

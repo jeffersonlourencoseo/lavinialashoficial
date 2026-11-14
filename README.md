@@ -1,4 +1,4 @@
-# Site da Lavinia Monteiro | Lash Designer
+# Site da Lavínia Monteiro | Lash Designer
 
 Site estático (HTML/CSS/JS puro, sem dependências), 24 páginas, otimizado para Google e para buscadores/assistentes de IA.
 Atendimento a domicílio em Cosmos, Campo Grande (RJ), Paciência, Senador Vasconcelos, Inhoaíba e Santa Cruz.
@@ -27,7 +27,7 @@ python -m http.server 8080 --directory site
 ```
 No Windows: `iniciar-site.bat`. Textos em `build/content.py` e `build/blog.py`; estilo em `site/assets/css/style.css`.
 
-## Pendências com a Lavinia
+## Pendências com a Lavínia
 - Confirmar o texto da página "Quem sou" (história desde 2024).
 - Valores, dias/horários e eventual taxa de deslocamento: seguem por WhatsApp (não estão no site de propósito).
 - Quando o GMN tiver avaliações reais, preencher `TESTIMONIALS`.

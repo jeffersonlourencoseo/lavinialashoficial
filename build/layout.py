@@ -11,7 +11,7 @@ IMG = os.path.join(OUT, "assets", "img")
 
 # ---- CONFIG (trocar o domínio quando definido) ----
 SITE_URL = os.environ.get("SITE_URL", "https://SITE_URL_PLACEHOLDER").rstrip("/")  # trocado no deploy pelo scripts/set-domain.mjs
-NAME = "Lavinia Monteiro | Lash Designer"
+NAME = "Lavínia Monteiro | Lash Designer"
 PHONE_DISPLAY = "(21) 98842-0844"
 PHONE_E164 = "+5521988420844"
 WA_NUMBER = "5521988420844"
@@ -95,7 +95,7 @@ def business_schema():
         "@type": ["BeautySalon", "LocalBusiness"],
         "@id": SITE_URL + "/#negocio",
         "name": NAME,
-        "alternateName": "Lavinia Monteiro Lash Designer",
+        "alternateName": "Lavínia Monteiro Lash Designer",
         "description": "Lash designer em Cosmos, Rio de Janeiro. Extensão de cílios fio a fio, volume egípcio, volume brasileiro, mega volume egípcio e Fox Eyes, com atendimento a domicílio em Cosmos, Campo Grande, Paciência, Senador Vasconcelos, Inhoaíba e Santa Cruz.",
         "url": SITE_URL + "/",
         "telephone": PHONE_E164,
@@ -107,7 +107,7 @@ def business_schema():
                        ["Extensão de cílios fio a fio", "Volume egípcio", "Volume brasileiro", "Mega volume egípcio", "Volume Fox Eyes", "Manutenção de cílios", "Remoção de extensão de cílios"]],
         "foundingDate": "2024",
         "slogan": "Eu vou até você: extensão de cílios a domicílio",
-        "founder": {"@type": "Person", "@id": SITE_URL + "/#lavinia", "name": "Lavinia Monteiro", "jobTitle": "Lash designer",
+        "founder": {"@type": "Person", "@id": SITE_URL + "/#lavinia", "name": "Lavínia Monteiro", "jobTitle": "Lash designer",
                     "url": SITE_URL + "/quem-sou/", "image": SITE_URL + "/assets/img/lavinia-monteiro-lash-designer.webp",
                     "sameAs": [INSTAGRAM, MAPS],
                     "knowsAbout": ["Extensão de cílios", "Extensão de cílios fio a fio", "Volume egípcio", "Volume brasileiro", "Mega volume egípcio", "Fox Eyes", "Manutenção de cílios", "Remoção de extensão de cílios"]},
@@ -127,7 +127,7 @@ def header(path):
     return f'''<a class="skip" href="#main">Pular para o conteúdo</a>
 <div class="topbar">Atendimento a domicílio em Cosmos, Campo Grande, Paciência, Vasconcelos, Inhoaíba e Santa Cruz · <a href="{WA_URL}" target="_blank" rel="noopener">Agende pelo WhatsApp</a></div>
 <header class="header"><div class="wrap">
-<a class="brand" href="/">{eye()}<span><b>LAVINIA MONTEIRO</b><small>Lash Designer</small></span></a>
+<a class="brand" href="/">{eye()}<span><b>LAVÍNIA MONTEIRO</b><small>Lash Designer</small></span></a>
 <button class="burger" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu"><span></span><span></span><span></span></button>
 <nav class="nav" id="menu" aria-label="Principal">{links}<a class="btn sm" href="{WA_URL}" target="_blank" rel="noopener">{ICON_WA}<span>Agendar</span></a></nav>
 </div></header>'''
@@ -135,7 +135,7 @@ def header(path):
 def footer():
     return f'''<footer class="footer"><div class="wrap">
 <div class="grid">
-<div><a class="brand" href="/">{eye()}<span><b>LAVINIA MONTEIRO</b><small>Lash Designer</small></span></a>
+<div><a class="brand" href="/">{eye()}<span><b>LAVÍNIA MONTEIRO</b><small>Lash Designer</small></span></a>
 <p>Extensão de cílios a domicílio em Cosmos, Campo Grande, Paciência, Senador Vasconcelos, Inhoaíba e Santa Cruz, no Rio de Janeiro. Eu vou até você.</p></div>
 <div><p class="fh">Serviços</p><ul>
 <li><a href="/servicos/extensao-de-cilios-fio-a-fio/">Fio a fio</a></li>
@@ -155,9 +155,9 @@ def footer():
 <li><a href="{MAPS}" target="_blank" rel="noopener">Perfil no Google Maps</a></li>
 <li>Cosmos, Rio de Janeiro - RJ<br><small>Atendimento a domicílio, com hora marcada</small></li></ul></div>
 </div>
-<div class="bar"><span>© 2026 Lavinia Monteiro | Lash Designer. Todos os direitos reservados.</span><span>Cosmos · Campo Grande · Paciência · Sen. Vasconcelos · Inhoaíba · Santa Cruz</span><nav class="legal" aria-label="Informações legais"><a href="/politica-de-privacidade/">Política de Privacidade</a><a href="/politica-de-cookies/">Política de Cookies</a><a href="/termos-de-uso/">Termos de Uso</a></nav><span class="credit">Site criado por Jefferson Lourenço</span></div>
+<div class="bar"><span>© 2026 Lavínia Monteiro | Lash Designer. Todos os direitos reservados.</span><span>Cosmos · Campo Grande · Paciência · Sen. Vasconcelos · Inhoaíba · Santa Cruz</span><nav class="legal" aria-label="Informações legais"><a href="/politica-de-privacidade/">Política de Privacidade</a><a href="/politica-de-cookies/">Política de Cookies</a><a href="/termos-de-uso/">Termos de Uso</a></nav><span class="credit">Site criado por Jefferson Lourenço</span></div>
 </div></footer>
-<a class="wafab" href="{WA_URL}" target="_blank" rel="noopener" aria-label="Agendar no WhatsApp com a Lavinia">{ICON_WA}<span>Agendar no WhatsApp</span></a>'''
+<a class="wafab" href="{WA_URL}" target="_blank" rel="noopener" aria-label="Agendar no WhatsApp com a Lavínia">{ICON_WA}<span>Agendar no WhatsApp</span></a>'''
 
 def render(path, title, desc, body, schemas=None, og_image="/assets/img/og-lavinia.jpg", og_type="website", noindex=False, extra_head=""):
     url = SITE_URL + path
@@ -175,7 +175,7 @@ def render(path, title, desc, body, schemas=None, og_image="/assets/img/og-lavin
 {robots}
 <link rel="canonical" href="{url}">
 <link rel="alternate" hreflang="pt-BR" href="{url}"><link rel="alternate" hreflang="x-default" href="{url}">
-<meta name="author" content="Lavinia Monteiro"><meta name="geo.region" content="BR-RJ"><meta name="geo.placename" content="Cosmos, Rio de Janeiro">
+<meta name="author" content="Lavínia Monteiro"><meta name="geo.region" content="BR-RJ"><meta name="geo.placename" content="Cosmos, Rio de Janeiro">
 <meta name="theme-color" content="#5A2A3C">
 <meta property="og:locale" content="pt_BR"><meta property="og:type" content="{og_type}"><meta property="og:site_name" content="{NAME}">
 <meta property="og:title" content="{escape(title)}"><meta property="og:description" content="{escape(desc)}">

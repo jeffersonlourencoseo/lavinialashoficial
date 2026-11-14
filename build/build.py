@@ -38,7 +38,7 @@ def service_cards(exclude=None, items=None):
     out = f'<div class="cards{" c4" if len(lst) == 4 else ""}">'
     for s in lst:
         out += (f'<a class="card rv" href="/servicos/{s["slug"]}/"><div class="ph">'
-                f'{pic(s["photo"], "Resultado de " + s["name"].lower() + " por Lavinia Monteiro", style="object-position:" + s["pos"])}</div>'
+                f'{pic(s["photo"], "Resultado de " + s["name"].lower() + " por Lavínia Monteiro", style="object-position:" + s["pos"])}</div>'
                 f'<div class="tx"><h3>{s["short"]}</h3><p>{s["card"]}</p><span class="more">Saiba mais</span></div></a>')
     return out + "</div>"
 
@@ -110,12 +110,12 @@ def home():
 <div class="rv">
 <span class="eyebrow">Lash designer a domicílio · Cosmos, RJ</span>
 <h1>Extensão de cílios a domicílio em Cosmos e <em>Campo Grande</em></h1>
-<p class="lead">Olá, eu sou a Lavinia. Faço extensão de cílios fio a fio e volume, manutenção e remoção, com técnica, cuidado e atenção a cada detalhe do seu olhar. E eu vou até a sua casa.</p>
+<p class="lead">Olá, eu sou a Lavínia. Faço extensão de cílios fio a fio e volume, manutenção e remoção, com técnica, cuidado e atenção a cada detalhe do seu olhar. E eu vou até a sua casa.</p>
 <div class="btns">{wa_btn("Agendar pelo WhatsApp","","hero")}<a class="btn ghost" href="/servicos/">Conhecer os serviços</a></div>
 <ul class="hero-points"><li>{ICON_HOME}Atendimento a domicílio</li><li>{ICON_CHECK}Sempre com hora marcada</li><li>{ICON_PIN}Cosmos · Campo Grande · mais 4 bairros</li></ul>
 </div>
 <div class="arch rv d1">
-{pic("lavinia-monteiro-lash-designer", "Lavinia Monteiro, lash designer em Cosmos, Rio de Janeiro, segurando pinças e escovinha de cílios", sizes="(min-width:980px) 470px, 90vw", eager=True)}
+{pic("lavinia-monteiro-lash-designer", "Lavínia Monteiro, lash designer em Cosmos, Rio de Janeiro, segurando pinças e escovinha de cílios", sizes="(min-width:980px) 470px, 90vw", eager=True)}
 <div class="badge">{eye()}<span><b>Eu vou até você</b>Cosmos, Campo Grande, Paciência, Vasconcelos, Inhoaíba e Santa Cruz</span></div>
 </div></div></section>'''
     ticker_items = "".join(f"<li>{s['short']}</li>" for s in SERVICES)
@@ -128,10 +128,10 @@ def home():
 {steps_html()}
 <div class="btns" style="justify-content:center;margin-top:54px">{wa_btn("Quero agendar","light","como-funciona")}</div></div></section>'''
     about = f'''<section class="sec"><div class="wrap"><div class="split">
-<div class="media arch2 rv">{pic("lavinia-monteiro-lash-designer-2", "Lavinia Monteiro, lash designer, com pinças de extensão de cílios", sizes="(min-width:980px) 520px, 90vw")}</div>
+<div class="media arch2 rv">{pic("lavinia-monteiro-lash-designer-2", "Lavínia Monteiro, lash designer, com pinças de extensão de cílios", sizes="(min-width:980px) 520px, 90vw")}</div>
 <div class="rv d1"><span class="eyebrow">Quem sou</span>
 <h2>Cuidado com cada <em>fio</em>, conforto na sua casa</h2>
-<p>Sou a Lavinia Monteiro, lash designer em Cosmos, no Rio de Janeiro. Meu trabalho é realçar o seu olhar com extensão de cílios feita com calma, técnica e atenção ao formato dos seus olhos e aos seus cílios naturais.</p>
+<p>Sou a Lavínia Monteiro, lash designer em Cosmos, no Rio de Janeiro. Meu trabalho é realçar o seu olhar com extensão de cílios feita com calma, técnica e atenção ao formato dos seus olhos e aos seus cílios naturais.</p>
 {checks(["<b>Atendimento a domicílio:</b> você não perde tempo no trânsito", "<b>Hora marcada:</b> atenção exclusiva para você", "<b>Aplicação cuidadosa:</b> que respeita seus fios naturais"])}
 <a class="btn ghost" href="/quem-sou/">Conheça minha história</a></div></div></div></section>'''
     results = f'''<section class="sec blush"><div class="wrap">
@@ -150,7 +150,7 @@ def home():
 {post_cards(ARTICLES[:3])}
 <p class="center rv" style="margin-top:34px"><a class="more" href="/blog/">Ver todos os artigos</a></p></div></section>'''
     body = hero + ticker + services + how + about + results + (testimonials_section() or why_section()) + areas + faq + blog + final_cta()
-    add("/", "Extensão de Cílios em Cosmos e Campo Grande RJ | Lavinia Monteiro",
+    add("/", "Extensão de Cílios em Cosmos e Campo Grande RJ | Lavínia Monteiro",
         "Lash designer a domicílio em Cosmos, Campo Grande, Paciência, Inhoaíba e Santa Cruz (RJ). Fio a fio, volumes e Fox Eyes. Agende pelo WhatsApp.",
         body, [SCH_BUSINESS, WEBSITE, faq_schema(HOME_FAQ)])
 
@@ -163,9 +163,9 @@ def about():
              f'<div class="stat rv d3"><b>6</b><span>bairros atendidos em casa</span></div></div></section>')
     body = f'''<section class="phero"><div class="wrap"><div class="split">
 <div class="rv">{crumbs_html(trail)}<span class="eyebrow">Quem sou</span>
-<h1>Lavinia Monteiro, <em>lash designer</em> em Cosmos</h1>
+<h1>Lavínia Monteiro, <em>lash designer</em> em Cosmos</h1>
 <p class="lead">Desde 2024 eu transformo olhares, um fio de cada vez, e levo esse cuidado até a sua casa.</p></div>
-<div class="media arch2 rv d1">{pic("lavinia-monteiro-lash-designer", "Lavinia Monteiro, lash designer em Cosmos, RJ", sizes="(min-width:980px) 520px, 90vw", eager=True)}</div></div></div></section>
+<div class="media arch2 rv d1">{pic("lavinia-monteiro-lash-designer", "Lavínia Monteiro, lash designer em Cosmos, RJ", sizes="(min-width:980px) 520px, 90vw", eager=True)}</div></div></div></section>
 {stats}
 <section class="sec"><div class="wrap narrow prose rv">
 <h2>Tudo começou em <em>2024</em></h2>
@@ -190,13 +190,13 @@ def about():
 {sec_head("O que eu faço", "Técnicas, manutenção e <em>cuidado</em>", "Escolho com você a técnica que mais combina com o seu estilo.")}
 {service_cards()}{extras_block()}</div></section>
 <section class="sec blush"><div class="wrap"><div class="split rev">
-<div class="media rv">{pic("lavinia-monteiro-lash-designer-2", "Lavinia Monteiro com pinças e escovinha de cílios", sizes="(min-width:980px) 520px, 90vw")}</div>
+<div class="media rv">{pic("lavinia-monteiro-lash-designer-2", "Lavínia Monteiro com pinças e escovinha de cílios", sizes="(min-width:980px) 520px, 90vw")}</div>
 <div class="rv d1"><span class="eyebrow">Fale comigo</span><h2>Vamos conversar sobre o <em>seu olhar</em>?</h2>
 <p>Me chame no WhatsApp ou acompanhe meu trabalho no Instagram. Vou adorar te conhecer e ajudar você a escolher o efeito ideal. Valores e horários eu passo direto por lá.</p>
 <div class="btns">{wa_btn("Chamar no WhatsApp")}{ig_btn()}</div></div></div></div></section>'''
     profile = {"@context": "https://schema.org", "@type": "ProfilePage", "mainEntity": {"@id": SITE_URL + "/#lavinia"}, "url": SITE_URL + "/quem-sou/", "inLanguage": "pt-BR"}
-    add("/quem-sou/", "Quem Sou | Lavinia Monteiro, Lash Designer em Cosmos RJ",
-        "Conheça a Lavinia Monteiro, lash designer em Cosmos, Rio de Janeiro, desde 2024. Extensão de cílios a domicílio com técnica, cuidado e atenção a cada detalhe.",
+    add("/quem-sou/", "Quem Sou | Lavínia Monteiro, Lash Designer em Cosmos RJ",
+        "Conheça a Lavínia Monteiro, lash designer em Cosmos, Rio de Janeiro, desde 2024. Extensão de cílios a domicílio com técnica, cuidado e atenção a cada detalhe.",
         body + review_invite() + final_cta(), [SCH_BUSINESS, profile, crumbs_schema(trail)])
 
 # ===================== SERVIÇOS =====================
@@ -242,7 +242,7 @@ def services_pages():
         body = f'''<section class="phero"><div class="wrap"><div class="split">
 <div class="rv">{crumbs_html(t)}<span class="eyebrow">{s["short"]}</span><h1>{s["h1"]}</h1>
 <p class="lead">{s["lead"]}</p><div class="btns" style="margin-top:28px">{wa_btn()}</div></div>
-<div class="media arch2 rv d1">{pic(s["photo"], "Resultado de " + s["name"].lower() + " por Lavinia Monteiro, lash designer em Cosmos RJ", sizes="(min-width:980px) 520px, 90vw", eager=True, style="aspect-ratio:4/5;object-position:" + s["pos"])}</div>
+<div class="media arch2 rv d1">{pic(s["photo"], "Resultado de " + s["name"].lower() + " por Lavínia Monteiro, lash designer em Cosmos RJ", sizes="(min-width:980px) 520px, 90vw", eager=True, style="aspect-ratio:4/5;object-position:" + s["pos"])}</div>
 </div></div></section>
 <section class="sec"><div class="wrap narrow prose rv"><h2>{s["what_h2"]}</h2>{what}</div></section>
 {results_section(s)}
@@ -289,7 +289,7 @@ def areas():
         pr = "".join(paras)
         body = f'''<section class="phero"><div class="wrap"><div class="split"><div class="rv">{crumbs_html(t)}<span class="eyebrow">{nome} · Rio de Janeiro</span><h1>{h1}</h1><p class="lead">{lead}</p>
 <div class="btns" style="margin-top:28px">{wa_btn()}</div></div>
-<div class="media arch2 rv d1">{pic("lavinia-monteiro-lash-designer", "Lavinia Monteiro, lash designer a domicílio em " + nome + ", RJ", sizes="(min-width:980px) 520px, 90vw", eager=True, style="aspect-ratio:4/5;object-position:50% 25%")}</div></div></div></section>
+<div class="media arch2 rv d1">{pic("lavinia-monteiro-lash-designer", "Lavínia Monteiro, lash designer a domicílio em " + nome + ", RJ", sizes="(min-width:980px) 520px, 90vw", eager=True, style="aspect-ratio:4/5;object-position:50% 25%")}</div></div></div></section>
 <section class="sec"><div class="wrap narrow prose rv">{pr}{extra}</div></section>
 <section class="sec blush"><div class="wrap">{sec_head("Serviços", f"Técnicas que eu faço em {nome}")}{service_cards()}</div></section>
 <section class="sec plum"><div class="wrap">{sec_head("Como funciona", "Simples, do <em>início ao fim</em>")}{steps_html()}</div></section>
@@ -298,7 +298,7 @@ def areas():
         add(f"/atendimento/{slug}/", title, desc, body + final_cta(), [SCH_BUSINESS, faq_schema(faq), crumbs_schema(t)])
 
     cosmos_faq = [
-     ("Tem lash designer que atende em casa em Cosmos?", "Tem: eu, Lavinia Monteiro. Sou lash designer em Cosmos e atendo a domicílio, com hora marcada, fazendo extensão de cílios fio a fio, volume egípcio, volume brasileiro, mega volume egípcio e Fox Eyes."),
+     ("Tem lash designer que atende em casa em Cosmos?", "Tem: eu, Lavínia Monteiro. Sou lash designer em Cosmos e atendo a domicílio, com hora marcada, fazendo extensão de cílios fio a fio, volume egípcio, volume brasileiro, mega volume egípcio e Fox Eyes."),
      ("Preciso sair de Cosmos para fazer extensão de cílios?", "Não. Você faz a extensão na sua casa, no seu bairro. Eu levo tudo o que é necessário e você só precisa de um cantinho confortável e bem iluminado."),
      ("Você atende em qual parte de Cosmos?", "Atendo em Cosmos e nos bairros próximos. Para confirmar a disponibilidade na sua rua, chame no WhatsApp e informe o seu endereço aproximado."),
      ("Como agendo a extensão de cílios em Cosmos?", "Clique em qualquer botão de WhatsApp do site, conte o efeito que você quer e combinamos dia e horário."),
@@ -307,10 +307,10 @@ def areas():
         "Extensão de Cílios em Cosmos RJ | Lash Designer a Domicílio",
         "Lash designer a domicílio em Cosmos, Rio de Janeiro. Fio a fio, volume egípcio, brasileiro, mega volume e Fox Eyes. Eu vou até você. Agende no WhatsApp.",
         "Extensão de cílios em <em>Cosmos</em>, RJ, na sua casa",
-        "Sou a Lavinia, lash designer em Cosmos. Faço sua extensão de cílios no conforto de casa, com hora marcada e atendimento só para você.",
+        "Sou a Lavínia, lash designer em Cosmos. Faço sua extensão de cílios no conforto de casa, com hora marcada e atendimento só para você.",
         ["<h2>Lash designer em Cosmos que vai até você</h2><p>Se você mora em Cosmos, no Rio de Janeiro, e procura uma lash designer perto de você, eu vou até a sua casa. Em vez de tirar um dia para ir até um estúdio, você faz a sua extensão de cílios no seu sofá ou na sua cama, sem trânsito e sem pressa.</p>",
          "<h2>Técnicas de extensão de cílios disponíveis em Cosmos</h2><p>Cada atendimento recebe o tempo e a atenção que o seu olhar merece, seja uma aplicação nova, uma <a href=\"/servicos/manutencao-de-cilios/\">manutenção</a> ou uma <a href=\"/servicos/remocao-de-cilios/\">remoção</a>. Antes de começar, conversamos sobre o efeito que você quer, desde o <a href=\"/servicos/extensao-de-cilios-fio-a-fio/\">fio a fio</a>, mais natural, até o <a href=\"/servicos/mega-volume-egipcio/\">mega volume egípcio</a>, mais marcante, passando pelo <a href=\"/servicos/volume-egipcio/\">volume egípcio</a>, pelo <a href=\"/servicos/volume-brasileiro/\">volume brasileiro</a> e pelo <a href=\"/servicos/volume-fox-eyes/\">Fox Eyes</a>.</p>" + LOCAL_PREP.format(local="Cosmos"),
-         "<h2>Atendimento em Cosmos e bairros vizinhos</h2><p>Além de Cosmos, também atendo moradoras de Campo Grande, Paciência, Senador Vasconcelos, Inhoaíba e Santa Cruz. Quer conferir o meu perfil? <a href=\"" + MAPS + "\" target=\"_blank\" rel=\"noopener\">Encontre a Lavinia Monteiro | Lash Designer no Google Maps</a>.</p>"],
+         "<h2>Atendimento em Cosmos e bairros vizinhos</h2><p>Além de Cosmos, também atendo moradoras de Campo Grande, Paciência, Senador Vasconcelos, Inhoaíba e Santa Cruz. Quer conferir o meu perfil? <a href=\"" + MAPS + "\" target=\"_blank\" rel=\"noopener\">Encontre a Lavínia Monteiro | Lash Designer no Google Maps</a>.</p>"],
         cosmos_faq)
 
     cg_faq = [
@@ -340,7 +340,7 @@ def clients():
 <div class="btns" style="justify-content:center;margin-top:48px">{wa_btn("Quero o meu olhar assim")}{ig_btn("Mais fotos no Instagram")}</div></div></section>
 <section class="sec blush"><div class="wrap">{sec_head("Escolha a sua", "Cada olhar pede um <em>efeito</em>")}{service_cards()}</div></section>''' + testimonials_section() + review_invite()
     add("/clientes/", "Clientes e Resultados | Extensão de Cílios em Cosmos RJ",
-        "Veja resultados reais de extensão de cílios feitos por Lavinia Monteiro, lash designer a domicílio em Cosmos e Campo Grande, RJ.",
+        "Veja resultados reais de extensão de cílios feitos por Lavínia Monteiro, lash designer a domicílio em Cosmos e Campo Grande, RJ.",
         body + final_cta(), [SCH_BUSINESS, crumbs_schema(trail)])
 
 # ===================== BLOG =====================
@@ -350,8 +350,8 @@ def blog():
 <h1>Tudo sobre <em>extensão de cílios</em></h1>
 <p class="lead">Guias práticos para escolher a técnica, cuidar das suas extensões e tirar as dúvidas mais comuns.</p></div></section>
 <section class="sec"><div class="wrap">{post_cards(ARTICLES)}</div></section>'''
-    add("/blog/", "Blog de Extensão de Cílios | Lavinia Monteiro Lash Designer",
-        "Dicas e guias sobre extensão de cílios: técnicas, cuidados, manutenção, valores e dúvidas. Por Lavinia Monteiro, lash designer em Cosmos, RJ.",
+    add("/blog/", "Blog de Extensão de Cílios | Lavínia Monteiro Lash Designer",
+        "Dicas e guias sobre extensão de cílios: técnicas, cuidados, manutenção, valores e dúvidas. Por Lavínia Monteiro, lash designer em Cosmos, RJ.",
         body + final_cta(), [SCH_BUSINESS, crumbs_schema(trail)])
     cta = BLOG_CTA.replace("{WA}", wa_btn("Agendar pelo WhatsApp", "light", "blog"))
     for a in ARTICLES:
@@ -369,7 +369,7 @@ def blog():
         sch = [SCH_BUSINESS, schema, crumbs_schema(t)] + ([faq_schema(a["faq"])] if a.get("faq") else [])
         body = f'''<article class="article"><div class="wrap narrow">{crumbs_html(t)}
 <span class="eyebrow">{a["tag"]}</span><h1>{a["h1"]}</h1>
-<p class="meta">Por <a href="/quem-sou/">Lavinia Monteiro</a>, lash designer · <time datetime="{TODAY}">12 de novembro de 2026</time> · {a["min"]} min de leitura</p>
+<p class="meta">Por <a href="/quem-sou/">Lavínia Monteiro</a>, lash designer · <time datetime="{TODAY}">12 de novembro de 2026</time> · {a["min"]} min de leitura</p>
 {pic(a["photo"], a["h1"], sizes="(min-width:800px) 760px, 100vw", eager=True, style="width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:20px;margin-bottom:2.2rem")}
 <div class="callout tldr"><p><strong>Resposta rápida:</strong> {a["tldr"]}</p></div><div class="prose">{content}</div></div></article>{faq}
 <section class="sec"><div class="wrap">{sec_head("Continue lendo", "Outros <em>artigos</em>")}{post_cards(others)}</div></section>'''
@@ -388,11 +388,11 @@ def contact():
 <div class="ccard rv d2">{ICON_PIN}<h3>Atendimento a domicílio</h3><p>Cosmos, Campo Grande, Paciência, Sen. Vasconcelos, Inhoaíba e Santa Cruz.<br>Sempre com hora marcada.</p><div class="btns" style="justify-content:center"><a class="btn ghost" href="/atendimento/">Ver regiões</a></div></div>
 </div></div></section>
 <section class="sec blush"><div class="wrap">{sec_head("Antes de agendar", "Perguntas <em>frequentes</em>")}<div class="rv">{faq_html(faq)}</div></div></section>
-<section class="sec"><div class="wrap narrow center rv"><span class="eyebrow">Google</span><h2>Encontre a Lavinia no <em>Google Maps</em></h2>
-<p class="lead">Veja o perfil da Lavinia Monteiro | Lash Designer no Google, em Cosmos, Rio de Janeiro.</p>
+<section class="sec"><div class="wrap narrow center rv"><span class="eyebrow">Google</span><h2>Encontre a Lavínia no <em>Google Maps</em></h2>
+<p class="lead">Veja o perfil da Lavínia Monteiro | Lash Designer no Google, em Cosmos, Rio de Janeiro.</p>
 <div class="btns" style="justify-content:center"><a class="btn ghost" href="{MAPS}" target="_blank" rel="noopener">{ICON_PIN}<span>Abrir no Google Maps</span></a></div></div></section>'''
-    add("/contato/", "Contato e Agendamento | Lavinia Monteiro Lash Designer",
-        "Agende sua extensão de cílios a domicílio em Cosmos, Campo Grande e região (RJ). Fale com a Lavinia pelo WhatsApp (21) 98842-0844.",
+    add("/contato/", "Contato e Agendamento | Lavínia Monteiro Lash Designer",
+        "Agende sua extensão de cílios a domicílio em Cosmos, Campo Grande e região (RJ). Fale com a Lavínia pelo WhatsApp (21) 98842-0844.",
         body + final_cta("Pronta para o seu novo olhar?"), [SCH_BUSINESS, faq_schema(faq), crumbs_schema(trail)])
 
 
@@ -408,15 +408,15 @@ def legal_page(slug, title, desc, h1, body_html):
     add(path, title, desc, body, [SCH_BUSINESS, crumbs_schema(trail)])
 
 def legal():
-    contato = (f'<p>Para qualquer assunto sobre esta página ou sobre os seus dados, fale com a Lavinia pelo WhatsApp '
+    contato = (f'<p>Para qualquer assunto sobre esta página ou sobre os seus dados, fale com a Lavínia pelo WhatsApp '
                f'<a href="{WA_URL}" target="_blank" rel="noopener">{PHONE_DISPLAY}</a>.</p>')
-    legal_page("politica-de-privacidade", "Política de Privacidade | Lavinia Monteiro Lash Designer",
-        "Como o site da Lavinia Monteiro | Lash Designer trata dados pessoais, de acordo com a LGPD (Lei 13.709/2018).",
+    legal_page("politica-de-privacidade", "Política de Privacidade | Lavínia Monteiro Lash Designer",
+        "Como o site da Lavínia Monteiro | Lash Designer trata dados pessoais, de acordo com a LGPD (Lei 13.709/2018).",
         "Política de Privacidade", f"""
-<p>Esta Política explica como o site <strong>{SITE_URL}</strong>, de <strong>Lavinia Monteiro | Lash Designer</strong>, trata dados pessoais, em conformidade com a Lei Geral de Proteção de Dados (LGPD, Lei nº 13.709/2018).</p>
+<p>Esta Política explica como o site <strong>{SITE_URL}</strong>, de <strong>Lavínia Monteiro | Lash Designer</strong>, trata dados pessoais, em conformidade com a Lei Geral de Proteção de Dados (LGPD, Lei nº 13.709/2018).</p>
 
 <h2>1. Quem é a responsável</h2>
-<p>A controladora dos dados é Lavinia Monteiro, lash designer com atendimento a domicílio em Cosmos, no Rio de Janeiro (RJ). Contato: WhatsApp {PHONE_DISPLAY}.</p>
+<p>A controladora dos dados é Lavínia Monteiro, lash designer com atendimento a domicílio em Cosmos, no Rio de Janeiro (RJ). Contato: WhatsApp {PHONE_DISPLAY}.</p>
 
 <h2>2. Quais dados são tratados</h2>
 <ul>
@@ -465,8 +465,8 @@ def legal():
 <p>Veja também a <a href="/politica-de-cookies/">Política de Cookies</a> e os <a href="/termos-de-uso/">Termos de Uso</a>.</p>
 """)
 
-    legal_page("politica-de-cookies", "Política de Cookies | Lavinia Monteiro Lash Designer",
-        "Saiba quais cookies o site da Lavinia Monteiro | Lash Designer utiliza (atualmente nenhum cookie de rastreamento) e como gerenciá-los.",
+    legal_page("politica-de-cookies", "Política de Cookies | Lavínia Monteiro Lash Designer",
+        "Saiba quais cookies o site da Lavínia Monteiro | Lash Designer utiliza (atualmente nenhum cookie de rastreamento) e como gerenciá-los.",
         "Política de Cookies", f"""
 <p>Esta Política explica o uso de cookies e tecnologias semelhantes no site <strong>{SITE_URL}</strong>.</p>
 
@@ -499,13 +499,13 @@ def legal():
 <p>Veja também a <a href="/politica-de-privacidade/">Política de Privacidade</a>.</p>
 """)
 
-    legal_page("termos-de-uso", "Termos de Uso | Lavinia Monteiro Lash Designer",
-        "Termos de uso do site da Lavinia Monteiro | Lash Designer: conteúdo, links externos, propriedade intelectual e agendamento.",
+    legal_page("termos-de-uso", "Termos de Uso | Lavínia Monteiro Lash Designer",
+        "Termos de uso do site da Lavínia Monteiro | Lash Designer: conteúdo, links externos, propriedade intelectual e agendamento.",
         "Termos de Uso", f"""
 <p>Ao acessar o site <strong>{SITE_URL}</strong>, você concorda com os termos abaixo.</p>
 
 <h2>1. Sobre o site</h2>
-<p>Este site apresenta os serviços de extensão de cílios (fio a fio, volume egípcio, volume brasileiro, mega volume egípcio, Fox Eyes, manutenção e remoção) de Lavinia Monteiro | Lash Designer, com atendimento a domicílio em Cosmos, Campo Grande (RJ), Paciência, Senador Vasconcelos, Inhoaíba e Santa Cruz.</p>
+<p>Este site apresenta os serviços de extensão de cílios (fio a fio, volume egípcio, volume brasileiro, mega volume egípcio, Fox Eyes, manutenção e remoção) de Lavínia Monteiro | Lash Designer, com atendimento a domicílio em Cosmos, Campo Grande (RJ), Paciência, Senador Vasconcelos, Inhoaíba e Santa Cruz.</p>
 
 <h2>2. Caráter informativo</h2>
 <p>Os textos e os artigos do blog têm finalidade informativa e <strong>não substituem avaliação profissional nem orientação médica</strong>. Em caso de vermelhidão, coceira, ardência, inchaço ou qualquer desconforto nos olhos, procure um profissional de saúde.</p>
@@ -514,10 +514,10 @@ def legal():
 <p>As fotos mostram resultados reais de atendimentos, mas o resultado varia de pessoa para pessoa, conforme o formato dos olhos, a condição dos cílios naturais, a técnica escolhida e os cuidados após a aplicação. Não há garantia de resultado idêntico ao das imagens.</p>
 
 <h2>4. Agendamento, valores e horários</h2>
-<p>Agendamentos, valores, horários disponíveis e eventuais condições são combinados diretamente com a Lavinia pelo WhatsApp. As informações do site não constituem proposta comercial vinculante.</p>
+<p>Agendamentos, valores, horários disponíveis e eventuais condições são combinados diretamente com a Lavínia pelo WhatsApp. As informações do site não constituem proposta comercial vinculante.</p>
 
 <h2>5. Propriedade intelectual</h2>
-<p>Textos, fotos, logotipo, identidade visual e demais conteúdos deste site pertencem à Lavinia Monteiro | Lash Designer ou são usados com autorização. É proibida a reprodução, total ou parcial, sem permissão prévia, salvo citações com indicação da fonte.</p>
+<p>Textos, fotos, logotipo, identidade visual e demais conteúdos deste site pertencem à Lavínia Monteiro | Lash Designer ou são usados com autorização. É proibida a reprodução, total ou parcial, sem permissão prévia, salvo citações com indicação da fonte.</p>
 
 <h2>6. Links externos</h2>
 <p>O site pode conter links para WhatsApp, Instagram, Google Maps e outros serviços de terceiros. Não controlamos esses ambientes e não nos responsabilizamos pelo seu conteúdo ou pelas suas políticas.</p>
@@ -539,9 +539,9 @@ def legal():
 def extras():
     # 404
     body = f'''<section class="phero"><div class="wrap center" style="padding:60px 0">{eye("mark")}<span class="eyebrow">Erro 404</span><h1>Essa página <em>não foi encontrada</em></h1>
-<p class="lead">O endereço pode ter mudado ou não existe mais. Que tal voltar para o início ou chamar a Lavinia no WhatsApp?</p>
+<p class="lead">O endereço pode ter mudado ou não existe mais. Que tal voltar para o início ou chamar a Lavínia no WhatsApp?</p>
 <div class="btns" style="justify-content:center;margin-top:28px"><a class="btn" href="/">Ir para o início</a>{wa_btn("Chamar no WhatsApp","ghost")}</div></div></section>'''
-    html = render("/404.html", "Página não encontrada | Lavinia Monteiro Lash Designer", "Página não encontrada.", body, noindex=True)
+    html = render("/404.html", "Página não encontrada | Lavínia Monteiro Lash Designer", "Página não encontrada.", body, noindex=True)
     open(os.path.join(OUT, "404.html"), "w", encoding="utf8").write(html)
     # sitemap/robots
     urls = "".join(f"<url><loc>{SITE_URL}{p}</loc><lastmod>{TODAY}</lastmod></url>" for p in pages)
@@ -555,7 +555,7 @@ def extras():
     L = [f"# {NAME}", "",
          "> Lash designer em Cosmos, Rio de Janeiro (RJ). Faz extensão de cílios fio a fio, volume egípcio, volume brasileiro, mega volume egípcio e volume Fox Eyes, além de manutenção e remoção, sempre a domicílio (a profissional vai até a casa da cliente), com hora marcada.", "",
          "## Fatos do negócio",
-         "- Profissional: Lavinia Monteiro, lash designer desde 2024",
+         "- Profissional: Lavínia Monteiro, lash designer desde 2024",
          "- Atendimento: somente a domicílio, em Cosmos, Campo Grande (RJ), Paciência, Senador Vasconcelos, Inhoaíba e Santa Cruz, no Rio de Janeiro",
          "- Não é Campo Grande (MS): o atendimento é em Campo Grande, Rio de Janeiro (RJ)",
          f"- WhatsApp: {PHONE_DISPLAY} ({PHONE_E164}); agendamento, valores e horários são combinados por lá",
