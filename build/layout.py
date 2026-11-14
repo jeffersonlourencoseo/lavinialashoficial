@@ -185,7 +185,7 @@ def render(path, title, desc, body, schemas=None, og_image="/assets/img/og-lavin
 <link rel="preload" href="/assets/fonts/cormorant-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/jost-normal.woff2" as="font" type="font/woff2" crossorigin>
 <style>{css}</style>
-<link rel="stylesheet" href="/assets/css/style.css?v=1">
+<link rel="stylesheet" href="/assets/css/style.css?v=2">
 {extra_head}{ld}
 </head>
 <body>

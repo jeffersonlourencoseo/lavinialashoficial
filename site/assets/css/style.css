@@ -237,6 +237,7 @@ section{position:relative}
 
 /* responsivo */
 @media (max-width:980px){
+  .header{backdrop-filter:none;-webkit-backdrop-filter:none;background:var(--cream)}
   .nav{position:fixed;inset:0;top:0;background:var(--cream);flex-direction:column;justify-content:center;gap:22px;padding:90px 30px 40px;opacity:0;transform:translateY(-14px);transition:opacity .35s var(--ease),transform .45s var(--ease),visibility 0s .45s;z-index:99;visibility:hidden}
   .nav.open{opacity:1;transform:none;visibility:visible;transition:opacity .35s var(--ease),transform .45s var(--ease),visibility 0s}
   .nav a{font-family:var(--serif);font-size:1.9rem;letter-spacing:0}
