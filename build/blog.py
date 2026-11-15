@@ -349,4 +349,6 @@ ARTICLES = [
 ]
 
 from blog_seo import NEW_ARTICLES
+for _a in NEW_ARTICLES:
+    _a.setdefault("date", "2026-11-15")
 ARTICLES += NEW_ARTICLES

@@ -346,6 +346,8 @@ def clients():
         body + final_cta(), [SCH_BUSINESS, crumbs_schema(trail)])
 
 # ===================== BLOG =====================
+MESES = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"]
+# artigos sem "date" são de 12/11/2026; os criados a partir da pesquisa de palavras-chave levam a própria data
 def blog():
     trail = [("Início", "/"), ("Blog", "/blog/")]
     body = f'''<section class="phero"><div class="wrap center">{crumbs_html(trail)}<span class="eyebrow">Blog</span>
@@ -358,20 +360,23 @@ def blog():
     cta = BLOG_CTA.replace("{WA}", wa_btn("Agendar pelo WhatsApp", "light", "blog"))
     for a in ARTICLES:
         t = trail + [(a["h1"], f"/blog/{a['slug']}/")]
+        pub = a.get("date", "2026-11-12")
+        yy, mm, dd = pub.split("-")
+        pub_pt = f"{int(dd)} de {MESES[int(mm) - 1]} de {yy}"
         content = a["html"].replace("{CTA}", cta)
         others = [x for x in ARTICLES if x["slug"] != a["slug"]][:3]
         faq = ""
         if a.get("faq"):
             faq = f'<section class="sec blush"><div class="wrap">{sec_head("Perguntas rápidas", "Resposta <em>direta</em>")}<div class="rv">{faq_html(a["faq"])}</div></div></section>'
         schema = {"@context": "https://schema.org", "@type": "BlogPosting", "headline": a["h1"], "description": a["desc"],
-                  "image": f"{SITE_URL}/assets/img/{a['photo']}.webp", "datePublished": TODAY, "dateModified": TODAY,
+                  "image": f"{SITE_URL}/assets/img/{a['photo']}.webp", "datePublished": pub, "dateModified": pub,
                   "inLanguage": "pt-BR", "mainEntityOfPage": f"{SITE_URL}/blog/{a['slug']}/",
                   "author": {"@id": SITE_URL + "/#lavinia"}, "about": a["tag"], "isPartOf": {"@id": SITE_URL + "/#site"},
                   "publisher": {"@id": SITE_URL + "/#negocio"}}
         sch = [SCH_BUSINESS, schema, crumbs_schema(t)] + ([faq_schema(a["faq"])] if a.get("faq") else [])
         body = f'''<article class="article"><div class="wrap narrow">{crumbs_html(t)}
 <span class="eyebrow">{a["tag"]}</span><h1>{a["h1"]}</h1>
-<p class="meta">Por <a href="/quem-sou/">Lavínia Monteiro</a>, lash designer · <time datetime="{TODAY}">12 de novembro de 2026</time> · {a["min"]} min de leitura</p>
+<p class="meta">Por <a href="/quem-sou/">Lavínia Monteiro</a>, lash designer · <time datetime="{pub}">{pub_pt}</time> · {a["min"]} min de leitura</p>
 {pic(a["photo"], a["h1"], sizes="(min-width:800px) 760px, 100vw", eager=True, style="width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:20px;margin-bottom:2.2rem")}
 <div class="callout tldr"><p><strong>Resposta rápida:</strong> {a["tldr"]}</p></div><div class="prose">{content}</div></div></article>{faq}
 <section class="sec"><div class="wrap">{sec_head("Continue lendo", "Outros <em>artigos</em>")}{post_cards(others)}</div></section>'''

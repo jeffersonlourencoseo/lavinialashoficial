@@ -19,7 +19,7 @@ WA_TEXT = "Olá, vi seu site e gostaria de mais informações!"
 INSTAGRAM = "https://www.instagram.com/laviniamonteiro_lash/"
 INSTAGRAM_USER = "@laviniamonteiro_lash"
 MAPS = "https://www.google.com/maps/place/Lavinia+Monteiro+%7C+Lash+Designer/@-22.9248479,-43.6058418,17z/data=!4m6!3m5!1s0x9be59efa3ec821:0x489149cbe8dea4c6!8m2!3d-22.9248479!4d-43.6058418!16s%2Fg%2F11p2slldlh?hl=pt-BR"
-TODAY = "2026-11-12"
+TODAY = "2026-11-15"  # lastmod do sitemap
 WA_URL = f"https://wa.me/{WA_NUMBER}?text={quote(WA_TEXT)}"
 
 AREAS = ["Cosmos", "Campo Grande", "Paciência", "Senador Vasconcelos", "Inhoaíba", "Santa Cruz"]
