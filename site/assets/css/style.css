@@ -346,3 +346,13 @@ section{position:relative}
 .mosaic.grid img{height:100%;object-fit:cover}
 .mosaic.grid.few{grid-template-columns:repeat(2,1fr);max-width:760px;margin-inline:auto}
 @media (max-width:560px){.mosaic.grid,.mosaic.grid.few{grid-template-columns:repeat(2,1fr);gap:10px}}
+
+/* banner de cookies */
+.cookiebar{position:fixed;left:16px;right:16px;bottom:16px;z-index:140;max-width:860px;margin-inline:auto;background:#fff;border:1px solid var(--line);border-radius:18px;box-shadow:0 18px 50px -18px rgba(67,32,46,.45);padding:18px 22px;display:flex;gap:18px;align-items:center;justify-content:space-between}
+.cookiebar p{margin:0;font-size:.92rem;line-height:1.5;color:var(--ink)}
+.cookiebar a{color:var(--plum)}
+.cookiebar .cb-btns{display:flex;gap:10px;flex:none}
+body.cookie-open .wafab{bottom:112px}
+.footer .linkbtn{background:none;border:0;padding:0;font:inherit;font-size:.84rem;color:inherit;text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+.footer .linkbtn:hover{color:#fff}
+@media (max-width:640px){.cookiebar{flex-direction:column;align-items:stretch;gap:12px;padding:16px}.cookiebar .cb-btns .btn{flex:1}body.cookie-open .wafab{bottom:170px}}

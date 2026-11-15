@@ -421,6 +421,7 @@ def legal():
 <h2>2. Quais dados são tratados</h2>
 <ul>
 <li><strong>Dados que você envia ao chamar no WhatsApp ou Instagram:</strong> nome, telefone, bairro, endereço aproximado para o atendimento, preferências de serviço e as informações que você escolher compartilhar (por exemplo, alergias ou sensibilidade nos olhos). Essa conversa acontece nas plataformas WhatsApp e Instagram, e não dentro deste site.</li>
+<li><strong>Dados de uso do site (estatística):</strong> com o seu consentimento, usamos o Google Analytics 4 para medir visitas, páginas acessadas, tempo de permanência, rolagem e cliques em botões (WhatsApp, Instagram e Google Maps) e na abertura de fotos. Essas medições são estatísticas e não nos permitem saber quem é você. Se você recusar, nenhum cookie de estatística é gravado.</li>
 <li><strong>Dados técnicos de acesso:</strong> como em qualquer site, o servidor de hospedagem pode registrar de forma automática dados como endereço IP, data e hora, páginas acessadas, tipo de navegador e dispositivo. Esses registros servem para segurança e funcionamento do site.</li>
 </ul>
 <p>Este site <strong>não possui formulários, cadastro, comentários nem área de login</strong> e não coleta dados pessoais diretamente por campos de preenchimento.</p>
@@ -437,7 +438,7 @@ def legal():
 <p>O tratamento ocorre com base na <strong>execução de contrato ou de procedimentos preliminares</strong> a pedido da cliente, no <strong>consentimento</strong> (quando você compartilha informações voluntariamente, inclusive de saúde, como alergias), no <strong>legítimo interesse</strong> (segurança do site) e no <strong>cumprimento de obrigação legal</strong>.</p>
 
 <h2>5. Com quem os dados podem ser compartilhados</h2>
-<p>Não vendemos nem cedemos seus dados. Eles podem ser tratados por prestadores necessários ao funcionamento dos canais: a hospedagem do site (Vercel Inc.), o WhatsApp e o Instagram (Meta Platforms) e o Google Maps (Google). Cada um deles tem a sua própria política de privacidade.</p>
+<p>Não vendemos nem cedemos seus dados. Eles podem ser tratados por prestadores necessários ao funcionamento dos canais: a hospedagem do site (Vercel Inc.), o Google Analytics (Google LLC), o WhatsApp e o Instagram (Meta Platforms) e o Google Maps (Google). Cada um deles tem a sua própria política de privacidade.</p>
 
 <h2>6. Por quanto tempo guardamos</h2>
 <p>Mantemos as informações pelo tempo necessário para o atendimento e para o relacionamento com a cliente, e por prazos legais quando aplicável. Você pode pedir a exclusão a qualquer momento, observadas as obrigações legais.</p>
@@ -466,35 +467,35 @@ def legal():
 """)
 
     legal_page("politica-de-cookies", "Política de Cookies | Lavínia Monteiro Lash Designer",
-        "Saiba quais cookies o site da Lavínia Monteiro | Lash Designer utiliza (atualmente nenhum cookie de rastreamento) e como gerenciá-los.",
+        "Quais cookies o site da Lavínia Monteiro | Lash Designer usa (Google Analytics, somente com seu consentimento) e como gerenciá-los.",
         "Política de Cookies", f"""
 <p>Esta Política explica o uso de cookies e tecnologias semelhantes no site <strong>{SITE_URL}</strong>.</p>
 
 <h2>1. O que são cookies</h2>
-<p>Cookies são pequenos arquivos que um site pode salvar no seu navegador para lembrar preferências, medir audiência ou exibir anúncios.</p>
+<p>Cookies são pequenos arquivos que um site pode salvar no seu navegador para lembrar preferências ou medir como o site é usado.</p>
 
-<h2>2. Quais cookies este site usa</h2>
-<p>Na data desta atualização, <strong>este site não define cookies próprios nem utiliza cookies de rastreamento, publicidade ou análise de audiência</strong> (como Google Analytics ou Meta Pixel). As fontes e imagens são servidas pelo próprio site, sem recursos de terceiros que gravem cookies.</p>
+<h2>2. Quais cookies usamos</h2>
 <table>
-<thead><tr><th>Tipo</th><th>Utilizado?</th><th>Finalidade</th></tr></thead>
+<thead><tr><th>Tipo</th><th>Usado?</th><th>Detalhes</th></tr></thead>
 <tbody>
-<tr><td>Estritamente necessários</td><td>Não</td><td>O site funciona sem eles</td></tr>
-<tr><td>Preferências</td><td>Não</td><td>Nenhuma preferência é gravada</td></tr>
-<tr><td>Estatísticas / análise</td><td>Não</td><td>Nenhuma ferramenta de análise ativa</td></tr>
-<tr><td>Marketing / publicidade</td><td>Não</td><td>Nenhum pixel ou anúncio ativo</td></tr>
+<tr><td>Estritamente necessários</td><td>Não</td><td>O site funciona sem cookies. Guardamos apenas a sua escolha de cookies no armazenamento local do navegador (chave <code>lm_consent</code>).</td></tr>
+<tr><td>Estatística (Google Analytics 4)</td><td>Somente se você aceitar</td><td>Cookies <code>_ga</code> e <code>_ga_*</code> (até 2 anos) para contar visitas e medir o uso do site, de forma estatística.</td></tr>
+<tr><td>Marketing / publicidade</td><td>Não</td><td>Nenhum pixel de anúncios está ativo.</td></tr>
 </tbody></table>
-<p>Por isso, o site <strong>não exibe banner de consentimento de cookies</strong>.</p>
 
-<h2>3. Cookies de terceiros ao clicar em links</h2>
-<p>Ao clicar em links para o WhatsApp, o Instagram ou o Google Maps, você sai deste site e acessa plataformas que podem usar seus próprios cookies, de acordo com as respectivas políticas. A hospedagem do site também pode registrar dados técnicos de acesso (como o endereço IP) em registros de servidor, sem uso de cookies.</p>
+<h2>3. O que medimos</h2>
+<p>Com o seu consentimento, medimos visitas e páginas acessadas, tempo no site, profundidade de rolagem, cliques nos botões de WhatsApp, Instagram e Google Maps, abertura de fotos e perguntas frequentes. Não coletamos nome, telefone nem outros dados que identifiquem você por meio dessas medições.</p>
 
-<h2>4. Se passarmos a usar cookies no futuro</h2>
-<p>Caso o site passe a utilizar ferramentas de análise ou marketing, esta Política será atualizada e, quando exigido pela LGPD, pediremos o seu consentimento antes de ativar cookies não essenciais.</p>
+<h2>4. Sua escolha</h2>
+<p>Ao entrar no site, você vê um aviso com as opções <strong>Aceitar</strong> e <strong>Recusar</strong>. Se recusar, o Google Analytics não grava cookies no seu navegador. O Google pode receber apenas sinais técnicos agregados, sem cookies, para estatísticas gerais (Consent Mode). Você pode mudar de ideia a qualquer momento clicando em <strong>Gerenciar cookies</strong> no rodapé de qualquer página.</p>
 
-<h2>5. Como gerenciar cookies no navegador</h2>
-<p>Você pode bloquear ou apagar cookies a qualquer momento nas configurações do seu navegador (Chrome, Safari, Firefox, Edge). Os caminhos variam por navegador, em geral em Configurações &gt; Privacidade e segurança.</p>
+<h2>5. Cookies de terceiros ao clicar em links</h2>
+<p>Ao clicar em links para o WhatsApp, o Instagram ou o Google Maps, você sai deste site e acessa plataformas que podem usar seus próprios cookies, conforme as respectivas políticas. A hospedagem do site também pode registrar dados técnicos de acesso (como o endereço IP) em registros de servidor.</p>
 
-<h2>6. Contato</h2>
+<h2>6. Como gerenciar cookies no navegador</h2>
+<p>Você também pode bloquear ou apagar cookies nas configurações do seu navegador (Chrome, Safari, Firefox, Edge), em geral em Configurações &gt; Privacidade e segurança.</p>
+
+<h2>7. Contato</h2>
 {contato}
 <p>Veja também a <a href="/politica-de-privacidade/">Política de Privacidade</a>.</p>
 """)

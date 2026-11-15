@@ -155,7 +155,7 @@ def footer():
 <li><a href="{MAPS}" target="_blank" rel="noopener">Perfil no Google Maps</a></li>
 <li>Cosmos, Rio de Janeiro - RJ<br><small>Atendimento a domicílio, com hora marcada</small></li></ul></div>
 </div>
-<div class="bar"><span>© 2026 Lavínia Monteiro | Lash Designer. Todos os direitos reservados.</span><span>Cosmos · Campo Grande · Paciência · Sen. Vasconcelos · Inhoaíba · Santa Cruz</span><nav class="legal" aria-label="Informações legais"><a href="/politica-de-privacidade/">Política de Privacidade</a><a href="/politica-de-cookies/">Política de Cookies</a><a href="/termos-de-uso/">Termos de Uso</a></nav><span class="credit">Site criado por Jefferson Lourenço</span></div>
+<div class="bar"><span>© 2026 Lavínia Monteiro | Lash Designer. Todos os direitos reservados.</span><span>Cosmos · Campo Grande · Paciência · Sen. Vasconcelos · Inhoaíba · Santa Cruz</span><nav class="legal" aria-label="Informações legais"><a href="/politica-de-privacidade/">Política de Privacidade</a><a href="/politica-de-cookies/">Política de Cookies</a><a href="/termos-de-uso/">Termos de Uso</a><button type="button" class="linkbtn" data-cookie-settings>Gerenciar cookies</button></nav><span class="credit">Site criado por Jefferson Lourenço</span></div>
 </div></footer>
 <a class="wafab" href="{WA_URL}" target="_blank" rel="noopener" aria-label="Agendar no WhatsApp com a Lavínia">{ICON_WA}<span>Agendar no WhatsApp</span></a>'''
 
@@ -196,6 +196,7 @@ def render(path, title, desc, body, schemas=None, og_image="/assets/img/og-lavin
 </main>
 {footer()}
 <script src="/assets/js/main.js?v=1" defer></script>
+<script src="/assets/js/analytics.js?v=1" defer></script>
 </body>
 </html>'''
 
