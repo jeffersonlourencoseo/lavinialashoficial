@@ -347,3 +347,6 @@ ARTICLES = [
 """
 },
 ]
+
+from blog_seo import NEW_ARTICLES
+ARTICLES += NEW_ARTICLES

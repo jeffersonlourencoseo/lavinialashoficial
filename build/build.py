@@ -110,7 +110,7 @@ def home():
 <div class="rv">
 <span class="eyebrow">Lash designer a domicílio · Cosmos, RJ</span>
 <h1>Extensão de cílios a domicílio em Cosmos e <em>Campo Grande</em></h1>
-<p class="lead">Olá, eu sou a Lavínia. Faço extensão de cílios fio a fio e volume, manutenção e remoção, com técnica, cuidado e atenção a cada detalhe do seu olhar. E eu vou até a sua casa.</p>
+<p class="lead">Olá, eu sou a Lavínia. Faço alongamento de cílios (extensão) fio a fio e volume, manutenção e remoção, com técnica, cuidado e atenção a cada detalhe do seu olhar. E eu vou até a sua casa.</p>
 <div class="btns">{wa_btn("Agendar pelo WhatsApp","","hero")}<a class="btn ghost" href="/servicos/">Conhecer os serviços</a></div>
 <ul class="hero-points"><li>{ICON_HOME}Atendimento a domicílio</li><li>{ICON_CHECK}Sempre com hora marcada</li><li>{ICON_PIN}Cosmos · Campo Grande · mais 4 bairros</li></ul>
 </div>
@@ -121,7 +121,7 @@ def home():
     ticker_items = "".join(f"<li>{s['short']}</li>" for s in SERVICES)
     ticker = f'<div class="ticker" aria-hidden="true"><ul>{ticker_items}{ticker_items}{ticker_items}</ul></div>'
     services = f'''<section class="sec"><div class="wrap">
-{sec_head("Serviços", "Cílios no <em>efeito</em> que combina com você", "Cinco técnicas para cada estilo de olhar, do mais natural ao mais marcante. Toque em uma delas para conhecer.")}
+{sec_head("Serviços", "Cílios no <em>efeito</em> que combina com você", "Cinco tipos de extensão de cílios para cada estilo de olhar, do mais natural, o fio a fio, ao mais marcante. Toque em um deles para conhecer.")}
 {service_cards()}{extras_block()}</div></section>'''
     how = f'''<section class="sec plum"><div class="wrap">
 {sec_head("Como funciona", "Do WhatsApp ao olhar <em>pronto</em>", "Um atendimento pensado para você ter conforto e atenção do começo ao fim.")}
@@ -131,7 +131,7 @@ def home():
 <div class="media arch2 rv">{pic("lavinia-monteiro-lash-designer-2", "Lavínia Monteiro, lash designer, com pinças de extensão de cílios", sizes="(min-width:980px) 520px, 90vw")}</div>
 <div class="rv d1"><span class="eyebrow">Quem sou</span>
 <h2>Cuidado com cada <em>fio</em>, conforto na sua casa</h2>
-<p>Sou a Lavínia Monteiro, lash designer em Cosmos, no Rio de Janeiro. Meu trabalho é realçar o seu olhar com extensão de cílios feita com calma, técnica e atenção ao formato dos seus olhos e aos seus cílios naturais.</p>
+<p>Sou a Lavínia Monteiro, lash designer (designer de cílios) em Cosmos, no Rio de Janeiro. Meu trabalho é realçar o seu olhar com extensão de cílios natural, feita com calma, técnica e atenção ao formato dos seus olhos e aos seus cílios naturais.</p>
 {checks(["<b>Atendimento a domicílio:</b> você não perde tempo no trânsito", "<b>Hora marcada:</b> atenção exclusiva para você", "<b>Aplicação cuidadosa:</b> que respeita seus fios naturais"])}
 <a class="btn ghost" href="/quem-sou/">Conheça minha história</a></div></div></div></section>'''
     results = f'''<section class="sec blush"><div class="wrap">
@@ -174,6 +174,8 @@ def about():
 <h2>Um fio de cada vez</h2>
 <p>Acredito que a beleza que vale a pena é aquela que combina com você. Por isso não existe um olhar padrão: existe o seu estilo, a sua rotina e o efeito que faz você se sentir bem quando se olha no espelho. Antes de começar, a gente conversa, eu entendo o que você imagina e só então escolho, com você, a técnica e o mapeamento ideais, do <a href="/servicos/extensao-de-cilios-fio-a-fio/">fio a fio</a> delicado ao <a href="/servicos/mega-volume-egipcio/">mega volume</a> marcante.</p>
 <blockquote>O melhor momento do atendimento é quando você abre os olhos e se enxerga no espelho.</blockquote>
+<h2>Lash designer, designer de cílios, extensionista: o que faço</h2>
+<p>Lash designer, designer de cílios e extensionista de cílios são nomes para a mesma profissão: a profissional que faz o alongamento de cílios com fios sintéticos, aplicados um a um sobre os cílios naturais. Se você quer entender melhor o dia a dia dessa profissão e o que esperar do atendimento, leia <a href="/blog/o-que-faz-uma-lash-designer/">o que faz uma lash designer</a>.</p>
 <h2>Por que eu vou até você</h2>
 <p>Escolhi atender a domicílio porque cuidar de si deveria ser leve. Sem trânsito, sem pressa, sem precisar sair de casa: você se deita, respira fundo e eu cuido do resto, com hora marcada e atenção só para você.</p>
 <p>Atendo em Cosmos, Campo Grande, Paciência, Senador Vasconcelos, Inhoaíba e Santa Cruz, e o cuidado não termina na aplicação: também faço <a href="/servicos/manutencao-de-cilios/">manutenção</a> para manter o olhar sempre bonito e <a href="/servicos/remocao-de-cilios/">remoção</a> feita com todo o cuidado para preservar os seus cílios naturais.</p>
