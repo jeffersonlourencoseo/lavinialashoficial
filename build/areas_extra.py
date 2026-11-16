@@ -17,7 +17,7 @@ AREA_PAGES = [
    "<h2>Depois da aplicação: cuidados e manutenção</h2><p>O atendimento não termina quando você abre os olhos. Eu explico como cuidar das extensões para que durem mais, e depois também faço a <a href=\"/servicos/manutencao-de-cilios/\">manutenção</a> e a <a href=\"/servicos/remocao-de-cilios/\">remoção</a> aí em Santa Cruz. Veja também o guia de <a href=\"/blog/cuidados-com-extensao-de-cilios/\">cuidados com a extensão de cílios</a>.</p>",
   ],
   "faq": [
-   ("Você atende em Santa Cruz, no Rio de Janeiro?", "Atendo sim, a domicílio e com hora marcada. Para confirmar a disponibilidade no seu endereço, chame no WhatsApp e informe o bairro ou a rua aproximada."),
+   ("Tem extensão de cílios perto de mim em Santa Cruz? Você atende lá?", "Atendo sim, a domicílio e com hora marcada. Para confirmar a disponibilidade no seu endereço, chame no WhatsApp e informe o bairro ou a rua aproximada."),
    ("Qual o valor da extensão de cílios em Santa Cruz?", "O valor depende da técnica escolhida e do efeito desejado, por isso eu passo direto pelo WhatsApp, depois de entender o que você quer."),
    ("Qual tipo de extensão de cílios fica mais natural?", "O fio a fio é o mais natural, porque cada cílio natural recebe um único fio. O volume brasileiro também tem aparência leve, com um pouco mais de preenchimento."),
    ("Quanto tempo a extensão de cílios dura?", "Depende do ciclo natural de queda dos seus cílios e dos cuidados. Com manutenção em intervalos regulares, o olhar fica preenchido por mais tempo. Leia <a href=\"/blog/quanto-tempo-dura-a-extensao-de-cilios/\">quanto tempo dura a extensão de cílios</a>."),
@@ -35,7 +35,7 @@ AREA_PAGES = [
    "<h2>Atendimento completo em Paciência</h2><p>Além da aplicação, eu faço a <a href=\"/servicos/manutencao-de-cilios/\">manutenção</a> para manter o preenchimento e a <a href=\"/servicos/remocao-de-cilios/\">remoção</a> quando você quiser trocar o efeito ou dar uma pausa. Tudo na sua casa, em Paciência.</p>",
   ],
   "faq": [
-   ("Tem extensão de cílios em Paciência, RJ?", "Tem: eu atendo a domicílio em Paciência, com hora marcada. Basta chamar no WhatsApp e combinar o dia, o horário e o efeito que você quer."),
+   ("Tem lash designer perto de mim em Paciência, RJ?", "Tem: eu atendo a domicílio em Paciência, com hora marcada. Basta chamar no WhatsApp e combinar o dia, o horário e o efeito que você quer."),
    ("Qual o valor médio de uma extensão de cílios em Paciência?", "O valor varia conforme a técnica e o efeito. Eu passo valores e horários disponíveis pelo WhatsApp, sem compromisso."),
    ("Dá para dormir com a extensão de cílios?", "Dá, sim. Depois das primeiras 24 a 48 horas de cuidado, você pode dormir normalmente. O ideal é evitar dormir com o rosto afundado no travesseiro, para não amassar os fios."),
    ("Posso fazer a extensão antes de uma festa em Paciência?", "Pode. O ideal é agendar alguns dias antes do evento, para você se acostumar com o visual. Leia o artigo sobre <a href=\"/blog/cilios-para-noivas-formaturas-e-festas/\">cílios para festas e noivas</a>."),
@@ -53,7 +53,7 @@ AREA_PAGES = [
    "<h2>Escolha o efeito com calma</h2><p>Do natural ao marcante, existem várias opções. Conheça o <a href=\"/servicos/volume-brasileiro/\">volume brasileiro</a>, o <a href=\"/servicos/volume-egipcio/\">volume egípcio</a>, o <a href=\"/servicos/mega-volume-egipcio/\">mega volume egípcio</a> e o <a href=\"/servicos/volume-fox-eyes/\">Fox Eyes</a>, ou me chame no WhatsApp para decidirmos juntas.</p>",
   ],
   "faq": [
-   ("Você faz extensão de cílios em Inhoaíba?", "Faço, a domicílio e com hora marcada. Para confirmar a disponibilidade no seu endereço, chame no WhatsApp."),
+   ("Você faz extensão de cílios perto de mim, em Inhoaíba?", "Faço, a domicílio e com hora marcada. Para confirmar a disponibilidade no seu endereço, chame no WhatsApp."),
    ("Qual a tabela de valores dos cílios?", "Eu não trabalho com tabela fixa no site, porque o valor depende da técnica e do efeito que você quer. Passo os valores e os horários direto pelo WhatsApp."),
    ("Nunca fiz extensão. Por onde começo?", "Pela conversa. Me conte o efeito que você imagina e eu indico a técnica mais adequada para o seu olhar. O fio a fio costuma ser a opção mais tranquila para a primeira vez."),
    ("Faço manutenção em Inhoaíba mesmo se a extensão foi feita por outra profissional?", "Em geral, sim: eu avalio os seus cílios e o que já está aplicado antes de decidir entre a manutenção e uma nova aplicação. Chame no WhatsApp com uma foto para eu orientar."),
@@ -71,7 +71,7 @@ AREA_PAGES = [
    "<h2>Manter o resultado bonito</h2><p>Com o tempo, as extensões vão caindo junto com os cílios naturais, e por isso a <a href=\"/servicos/manutencao-de-cilios/\">manutenção</a> faz parte do cuidado. Quando você quiser trocar o efeito ou dar uma pausa, a <a href=\"/servicos/remocao-de-cilios/\">remoção</a> também é feita em casa, com todo o cuidado.</p>",
   ],
   "faq": [
-   ("Tem lash designer em Senador Vasconcelos?", "Tem: eu, Lavínia Monteiro, atendo a domicílio em Senador Vasconcelos, com hora marcada. Chame no WhatsApp para combinar."),
+   ("Tem lash designer perto de mim em Senador Vasconcelos?", "Tem: eu, Lavínia Monteiro, atendo a domicílio em Senador Vasconcelos, com hora marcada. Chame no WhatsApp para combinar."),
    ("Quanto custa uma extensão de cílios em Senador Vasconcelos?", "O valor depende da técnica, do efeito e do tempo da aplicação. Eu passo os valores pelo WhatsApp, depois de entender o que você quer. Leia também <a href=\"/blog/quanto-custa-extensao-de-cilios/\">o que muda o valor da extensão de cílios</a>."),
    ("Qual o melhor efeito para o meu tipo de olho?", "Depende do formato dos olhos e do estilo que você prefere. Eu avalio o seu olhar e indico o mapeamento mais harmonioso. Veja <a href=\"/blog/tipos-e-modelos-de-extensao-de-cilios/\">tipos e modelos de extensão de cílios</a>."),
    ("O Fox Eyes combina com todo mundo?", "O efeito pode ser adaptado a vários formatos de olhos, e o mapeamento é pensado para cada pessoa. Me chame no WhatsApp para conversarmos sobre o seu olhar."),

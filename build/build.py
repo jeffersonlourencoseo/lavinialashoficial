@@ -302,7 +302,7 @@ def areas():
         add(f"/atendimento/{slug}/", title, desc, body + final_cta(), [SCH_BUSINESS, faq_schema(faq), crumbs_schema(t)])
 
     cosmos_faq = [
-     ("Tem lash designer que atende em casa em Cosmos?", "Tem: eu, Lavínia Monteiro. Sou lash designer em Cosmos e atendo a domicílio, com hora marcada, fazendo extensão de cílios fio a fio, volume egípcio, volume brasileiro, mega volume egípcio e Fox Eyes."),
+     ("Tem lash designer perto de mim em Cosmos, que atenda em casa?", "Tem: eu, Lavínia Monteiro. Sou lash designer em Cosmos e atendo a domicílio, com hora marcada, fazendo extensão de cílios fio a fio, volume egípcio, volume brasileiro, mega volume egípcio e Fox Eyes."),
      ("Preciso sair de Cosmos para fazer extensão de cílios?", "Não. Você faz a extensão na sua casa, no seu bairro. Eu levo tudo o que é necessário e você só precisa de um cantinho confortável e bem iluminado."),
      ("Você atende em qual parte de Cosmos?", "Atendo em Cosmos e nos bairros próximos. Para confirmar a disponibilidade na sua rua, chame no WhatsApp e informe o seu endereço aproximado."),
      ("Como agendo a extensão de cílios em Cosmos?", "Clique em qualquer botão de WhatsApp do site, conte o efeito que você quer e combinamos dia e horário."),
@@ -318,7 +318,7 @@ def areas():
         cosmos_faq, extra=_E["Cosmos"])
 
     cg_faq = [
-     ("Você atende em Campo Grande, no Rio de Janeiro?", "Sim. Atendo a domicílio em Campo Grande, na Zona Oeste do Rio de Janeiro (RJ), com hora marcada. Para confirmar a disponibilidade no seu endereço, chame no WhatsApp."),
+     ("Tem extensão de cílios perto de mim em Campo Grande, no Rio de Janeiro?", "Sim. Atendo a domicílio em Campo Grande, na Zona Oeste do Rio de Janeiro (RJ), com hora marcada. Para confirmar a disponibilidade no seu endereço, chame no WhatsApp."),
      ("Esse atendimento é em Campo Grande RJ ou Campo Grande MS?", "É em Campo Grande, no Rio de Janeiro (RJ). Não atendo em Campo Grande, no Mato Grosso do Sul."),
      ("Preciso ir até um estúdio em Campo Grande?", "Não. Eu vou até você, então você faz a extensão de cílios no conforto da sua casa."),
      ("Como agendo extensão de cílios em Campo Grande RJ?", "Pelo WhatsApp. Conte o efeito que você quer e combinamos dia e horário."),
