@@ -80,6 +80,7 @@ SERVICES = [
   "faq": [
    ("Mega volume pode danificar meus cílios?", "O que protege os seus cílios é a aplicação correta: fios ultrafinos, leques proporcionais à espessura de cada cílio natural e isolamento adequado. Eu avalio seus cílios antes e ajusto o volume ao que eles suportam."),
    ("Mega volume parece exagerado?", "Ele é, de fato, o efeito mais marcante entre as técnicas. Se você quer algo mais sutil, o <a href=\"/servicos/volume-egipcio/\">volume egípcio</a> ou o <a href=\"/servicos/extensao-de-cilios-fio-a-fio/\">fio a fio</a> podem combinar mais. Eu te ajudo a decidir."),
+   ("Qual a diferença entre volume russo e mega volume?", "No volume russo, os leques costumam ter de três a cinco fios. No mega volume, os leques têm mais fios, a partir de seis, todos ultrafinos, o que deixa o olhar bem mais cheio e denso."),
    ("Mega volume é a mesma coisa que 6D?", "O “D” indica a quantidade de fios do leque: no 6D, cada leque tem seis fios. O mega volume usa leques com mais fios do que o volume tradicional, e a quantidade exata de cada leque eu defino de acordo com a espessura e a saúde dos seus cílios naturais. Leia mais em <a href=\"/blog/mega-volume-e-6d-qual-a-diferenca/\">mega volume e 6D: qual a diferença</a>."),
    ("Quanto tempo leva a aplicação?", "Depende da técnica e do seu olhar. Como o mega volume pede mais cuidado e mais fios, reserve um bom tempo na agenda. Ao agendar, eu informo a duração estimada para o seu caso."),
   ],
@@ -171,7 +172,8 @@ EXTRA_SERVICES = [
    ("O que é o removedor de cílios?", "É um produto próprio para dissolver a cola da extensão, aplicado com cuidado para não entrar nos olhos. Por isso a remoção profissional é mais segura que improvisar com óleos, água quente ou puxando os fios."),
    ("A remoção de cílios dói?", "Não deve doer. Você fica deitada, de olhos fechados, enquanto a remoção é feita com cuidado. Se sentir qualquer desconforto, é só avisar."),
    ("Posso fazer uma nova aplicação logo depois da remoção?", "Em geral, sim, e muita gente faz. Me conte no WhatsApp o que você quer e eu combino o melhor passo a passo para você."),
-   ("Valores e horários da remoção?", "Os valores e os horários disponíveis eu passo direto pelo WhatsApp."),
+   ("Os cílios voltam a crescer depois de arrancados?", "O cílio natural passa por um ciclo de crescimento e, em geral, volta a crescer. Mas arrancar fios com frequência pode enfraquecer a raiz e atrasar esse retorno, por isso a remoção correta importa. Se notar algo diferente, procure orientação médica."),
+   ("Qual o valor para remover extensão de cílios?", "O valor e os horários disponíveis eu passo direto pelo WhatsApp, depois de entender o que você tem aplicado."),
   ],
  },
 ]

@@ -207,6 +207,15 @@ NEW_ARTICLES = [
 <h2>Mapping esquilo</h2>
 <p>Os fios mais longos ficam na região entre o centro e o canto externo, criando um olhar aberto e com leveza, com um acabamento mais arrumado nas pontas.</p>
 
+<h2>Para que serve o mapping de cílios</h2>
+<p>O mapping é o planejamento do olhar: ele define o comprimento de cada região, para que o resultado combine com o formato dos seus olhos e com o efeito que você quer. É ele que evita aquele resultado “aleatório” ou desproporcional.</p>
+
+<h2>Mapping natural e wispy</h2>
+<p>O <strong>natural (clássico)</strong> distribui os comprimentos de forma gradual e discreta, sem alongar nenhum canto em especial. O <strong>wispy</strong> alterna fios de comprimentos diferentes para um efeito mais leve e “espetado”. Aqui eu trabalho com os mapeamentos desta página e com os que combinam com as técnicas dos <a href="/servicos/">serviços</a>. Se tiver interesse em outro, me chame no WhatsApp.</p>
+
+<h2>Como é feito o mapeamento no atendimento</h2>
+<p>Antes de aplicar, eu observo o seu olhar com os olhos abertos, avalio o formato dos olhos e a distribuição dos seus cílios naturais, e defino com você o efeito. Só então os comprimentos de cada região são planejados e a aplicação segue esse desenho, com uma revisão ao final.</p>
+
 <h2>Como escolher</h2>
 <ul>
 <li>Quer um olhar levantado e marcante: Fox Eyes;</li>
@@ -228,6 +237,8 @@ NEW_ARTICLES = [
  "faq": [
   ("O que é mega volume nos cílios?", "É uma técnica de extensão que usa leques com mais fios ultrafinos, para um olhar bem cheio, denso e marcante."),
   ("O que significa 6D nos cílios?", "O “D” indica a quantidade de fios do leque. No 6D, cada leque tem seis fios."),
+ ("Qual a diferença entre volume russo e mega volume?", "No volume russo, os leques costumam ter de três a cinco fios, e no mega volume os leques têm mais fios, a partir de seis, com fios ultrafinos. O resultado do mega volume é mais cheio e denso."),
+ ("Qual fio é usado no mega volume?", "São fios ultrafinos, mais finos do que os usados em técnicas com menos fios por leque, para que o leque cheio não pese sobre o cílio natural."),
  ],
  "html": """
 <p>Quanto mais volume, mais perguntas: <strong>mega volume</strong>, <strong>6D</strong>, <strong>volume egípcio</strong> e <strong>volume brasileiro</strong> são a mesma coisa? Não exatamente. Veja as diferenças.</p>
@@ -265,7 +276,9 @@ NEW_ARTICLES = [
  "faq": [
   ("Pode passar rímel na extensão de cílios?", "O rímel comum, principalmente à prova d’água, não é recomendado: pesa, suja os fios e, para tirar, é preciso esfregar os olhos, o que solta as extensões. Existem produtos próprios para extensão, e vale conversar com a sua profissional antes de usar."),
   ("Existe rímel para extensão de cílios?", "Existem produtos vendidos para esse fim, geralmente mais leves e sem óleo. A orientação varia de profissional para profissional, então pergunte para a sua antes de comprar."),
-  ("O que não pode fazer com extensão de cílios?", "Evitar água quente e vapor nas primeiras 24 a 48 horas, não usar curvex, não puxar nem coçar os fios e evitar produtos oleosos perto dos olhos. Veja o guia completo de cuidados."),
+  ("O rímel faz cair os cílios?", "O rímel em si não derruba o cílio natural, mas o peso do produto e o esfregar dos olhos para tirar podem soltar as extensões antes da hora, principalmente se for à prova d’água."),
+ ("O que não pode passar na extensão de cílios?", "Evite produtos oleosos e rímel à prova d’água, que enfraquecem a cola e dificultam a remoção. Em caso de dúvida sobre um produto, pergunte para a sua profissional."),
+ ("O que não pode fazer com extensão de cílios?", "Evitar água quente e vapor nas primeiras 24 a 48 horas, não usar curvex, não puxar nem coçar os fios e evitar produtos oleosos perto dos olhos. Veja o guia completo de cuidados."),
  ],
  "html": """
 <p>Depois de fazer a extensão, bate a dúvida: dá para passar rímel? A resposta honesta é: <strong>depende do produto</strong>. O rímel comum costuma atrapalhar, e há produtos próprios que podem ser usados com cuidado. Entenda a diferença.</p>

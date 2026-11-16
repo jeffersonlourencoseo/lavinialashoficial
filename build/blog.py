@@ -301,6 +301,15 @@ ARTICLES = [
 <li><strong>Cuide dos cílios depois</strong>, com os cuidados do dia a dia: <a href="/blog/cuidados-com-extensao-de-cilios/">veja o guia de cuidados</a>.</li>
 </ol>
 
+<h2>Quando a extensão não é indicada</h2>
+<p>Se você tem alergia conhecida a colas ou adesivos, está com alguma irritação ou infecção nos olhos, ou tem olhos muito sensíveis, o ideal é conversar antes e, se for o caso, procurar orientação médica. Faça uma conversa com a sua profissional bem antes do casamento, para evitar surpresas na semana do evento.</p>
+
+<h2>Vantagens e pontos de atenção</h2>
+<p>A vantagem é acordar com o olhar pronto no dia do casamento, sem depender de cílios postiços ou de rímel, e com mais praticidade na maquiagem e nas fotos. Como ponto de atenção, a extensão pede cuidados e <a href="/servicos/manutencao-de-cilios/">manutenção</a>, e o ideal é testar o efeito antes, para ter certeza de que combina com você.</p>
+
+<h2>Depois do casamento: duração e manutenção</h2>
+<p>As extensões caem junto com os cílios naturais, então o olhar vai ficando menos preenchido com o tempo. Veja <a href="/blog/quanto-tempo-dura-a-extensao-de-cilios/">quanto tempo dura a extensão de cílios</a> e se programe para a manutenção, caso queira manter o efeito na lua de mel.</p>
+
 <h2>Atendimento em casa, sem correria</h2>
 <p>Em dias de preparação, a correria é grande. Com o atendimento a domicílio, você faz os cílios no conforto de casa, sem deslocamento, e ainda aproveita para se organizar com calma. Eu atendo em Cosmos, Campo Grande, Paciência, Senador Vasconcelos, Inhoaíba e Santa Cruz. Chame no WhatsApp e consulte a disponibilidade para a sua data.</p>
 {CTA}
