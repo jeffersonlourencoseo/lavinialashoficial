@@ -4,6 +4,9 @@
   "buildCommand": "node scripts/set-domain.mjs",
   "outputDirectory": "site",
   "trailingSlash": true,
+  "redirects": [
+    { "source": "/blog/o-que-faz-uma-lash-designer/", "destination": "/quem-sou/", "permanent": true }
+  ],
   "headers": [
     { "source": "/(.*)", "headers": [
       { "key": "X-Content-Type-Options", "value": "nosniff" },

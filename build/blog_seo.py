@@ -75,6 +75,20 @@ NEW_ARTICLES = [
 </ul>
 <p>Leia o comparativo completo em <a href="/blog/mapping-de-cilios-gatinho-boneca-esquilo-e-fox-eyes/">mapping de cílios</a>.</p>
 
+<h2>Comparativo rápido das técnicas</h2>
+<div style="overflow-x:auto"><table><thead><tr><th>Técnica</th><th>Como é</th><th>Efeito</th></tr></thead><tbody>
+<tr><td>Fio a fio</td><td>Um fio em cada cílio natural</td><td>Natural, delicado e leve</td></tr>
+<tr><td>Volume brasileiro</td><td>Fios em formato Y</td><td>Preenchido, leve e com textura</td></tr>
+<tr><td>Volume egípcio</td><td>Leques de fios finos</td><td>Mais cheio e definido</td></tr>
+<tr><td>Mega volume</td><td>Leques com mais fios ultrafinos</td><td>Bem cheio, denso e marcante</td></tr>
+</tbody></table></div>
+
+<h2>Curvaturas: o que cada letra significa</h2>
+<p>Além da técnica e do mapeamento, o fio tem uma <strong>curvatura</strong>, indicada por letras. De forma geral, a curvatura J é a mais suave e dá um efeito natural, as curvaturas B e C são intermediárias, e a curvatura D é a mais curvada, com um efeito aberto e marcante. A escolha depende do seu cílio natural e do efeito que você quer, e é definida na conversa antes da aplicação.</p>
+
+<h2>Outros estilos que você pode ouvir por aí</h2>
+<p>O <strong>híbrido</strong> mistura fio a fio e volume na mesma aplicação, e o <strong>wispy</strong> alterna fios de comprimentos diferentes para um efeito mais leve e espetado. Aqui eu trabalho com as técnicas e mapeamentos listados acima. Se tiver interesse em outro estilo, me chame no WhatsApp para conversarmos.</p>
+
 <h2>Como escolher para o seu tipo de olho</h2>
 <ul>
 <li><strong>Olhos mais arredondados:</strong> costumam ficar elegantes com mapeamentos que alongam para os lados, como o gatinho e o Fox Eyes;</li>
@@ -107,6 +121,11 @@ NEW_ARTICLES = [
 <li><strong>Usar produtos improvisados</strong> perto dos olhos. Eles podem irritar e não garantem que a cola vai soltar;</li>
 <li><strong>Tentar “cortar” os fios.</strong> Isso pode machucar a região e agredir os cílios naturais.</li>
 </ul>
+
+<h2>Água morna, óleo ou vapor funcionam?</h2>
+<p>É o que mais aparece nas pesquisas, mas não é um caminho confiável. Vapor e produtos oleosos podem amolecer a cola de forma parcial, só que exigem esfregar os olhos para os fios soltarem, e isso irrita a pele e pode levar o cílio natural junto. Também não há garantia de que o produto escolhido seja seguro perto dos olhos. Por isso não indico esses métodos.</p>
+<h2>O que realmente amolece a cola da extensão</h2>
+<p>O que faz esse trabalho é o <strong>removedor próprio para extensão de cílios</strong>, um produto feito para dissolver a cola. Ele é aplicado com isolamento cuidadoso da região dos olhos, algo difícil de reproduzir sozinha em casa.</p>
 
 <h2>Por que a remoção profissional é mais segura</h2>
 <p>A profissional usa um <strong>removedor próprio</strong>, que dissolve a cola da extensão, com isolamento cuidadoso dos olhos e atenção aos cílios naturais. Os fios saem de forma suave, sem puxar, e você sai com os seus cílios preservados. Conheça o serviço de <a href="/servicos/remocao-de-cilios/">remoção de extensão de cílios a domicílio</a>.</p>
@@ -147,7 +166,7 @@ NEW_ARTICLES = [
 <p>Você fica deitada, de olhos fechados, e o atendimento não deve doer. Veja <a href="/blog/extensao-de-cilios-a-domicilio-como-funciona/">como funciona o atendimento a domicílio</a>.</p>
 
 <h2>Quanto tempo dura</h2>
-<p>Os cílios naturais passam por um ciclo de crescimento, repouso e queda. Quando um cílio natural cai, a extensão cai junto, então a duração varia de pessoa para pessoa. Para manter o olhar sempre preenchido, a <a href="/blog/manutencao-de-cilios-quando-fazer/">manutenção</a> deve ser feita em intervalos regulares.</p>
+<p>Os cílios naturais passam por um ciclo de crescimento, repouso e queda. Quando um cílio natural cai, a extensão cai junto, então a duração varia de pessoa para pessoa. Para manter o olhar sempre preenchido, a <a href="/blog/manutencao-de-cilios-quando-fazer/">manutenção</a> deve ser feita em intervalos regulares. Veja mais em <a href="/blog/quanto-tempo-dura-a-extensao-de-cilios/">quanto tempo dura a extensão de cílios e o que faz cair</a>.</p>
 
 <h2>Cuidados para durar mais</h2>
 <ul>
@@ -201,77 +220,6 @@ NEW_ARTICLES = [
 """
 },
 {
- "slug": "pode-passar-rimel-na-extensao-de-cilios", "tldr": 'em geral, não é recomendado passar rímel na extensão de cílios: ele suja e pesa os fios, pode soltar a cola e exige esfregar os olhos para sair. A extensão já dá curvatura e definição, então o rímel costuma ser desnecessário.',
- "h1": "Pode passar rímel na extensão de cílios?",
- "title": "Pode Passar Rímel na Extensão de Cílios? Entenda",
- "desc": "Pode passar rímel na extensão de cílios? Veja por que o rímel costuma ser desaconselhado, o que acontece e como ter um olhar marcante sem ele.",
- "tag": "Cuidados", "min": 4, "photo": "resultado-cilios-cosmos-rj-03",
- "faq": [
-  ("Pode passar rímel na extensão de cílios?", "Em geral, não é recomendado. O rímel suja e pesa os fios, e para tirar é preciso esfregar os olhos, o que pode soltar as extensões."),
-  ("Existe rímel para extensão de cílios?", "Existem produtos vendidos para esse fim, mas a maioria das profissionais orienta evitar. Converse com a sua profissional sobre o que ela indica para o seu caso."),
- ],
- "html": """
-<p>Depois de fazer a extensão, bate a dúvida: será que dá para passar rímel? A resposta mais comum entre as profissionais é: <strong>não é recomendado</strong>. Entenda os motivos.</p>
-
-<h2>Por que o rímel não combina com a extensão</h2>
-<ul>
-<li><strong>Pesa os fios.</strong> A extensão é leve, e o rímel acrescenta peso nos cílios naturais;</li>
-<li><strong>Suja e gruda.</strong> Os fios podem ficar grudados entre si, perdendo o desenho;</li>
-<li><strong>Exige esfregar para tirar.</strong> Para remover o rímel, é preciso esfregar os olhos, e isso solta as extensões;</li>
-<li><strong>Pode comprometer a fixação</strong>, especialmente se o produto for oleoso ou à prova d’água.</li>
-</ul>
-
-<h2>Então como ter um olhar marcante?</h2>
-<p>A extensão já entrega curvatura, comprimento e definição, e dependendo da técnica, também volume. Se você quer mais impacto, vale escolher um efeito mais marcante, como o <a href="/servicos/volume-egipcio/">volume egípcio</a> ou o <a href="/servicos/mega-volume-egipcio/">mega volume</a>, em vez de recorrer ao rímel.</p>
-
-<h2>Quais cuidados ajudam a extensão a durar</h2>
-<p>Evite produtos oleosos perto dos olhos, não use curvex, não puxe os fios e mantenha os cílios limpos e escovados. O guia de <a href="/blog/cuidados-com-extensao-de-cilios/">cuidados com a extensão de cílios</a> traz o passo a passo, e o <a href="/blog/mitos-e-verdades-sobre-extensao-de-cilios/">artigo de mitos e verdades</a> esclarece outras dúvidas comuns.</p>
-
-<h2>E a maquiagem nos olhos?</h2>
-<p>Sombras e delineador podem ser usados com cuidado, sem esfregar. O importante é remover a maquiagem de forma suave, sem puxar os cílios. Se tiver dúvida sobre algum produto, pergunte para a sua profissional.</p>
-{CTA}
-"""
-},
-{
- "slug": "o-que-faz-uma-lash-designer", "tldr": 'lash designer (ou designer de cílios, extensionista de cílios) é a profissional que aplica extensão de cílios: avalia o olhar, escolhe técnica e mapeamento, aplica os fios um a um e orienta os cuidados e a manutenção.',
- "h1": "O que faz uma lash designer? Entenda a profissão e o atendimento",
- "title": "O Que Faz uma Lash Designer? Entenda o Atendimento",
- "desc": "O que é e o que faz uma lash designer (designer de cílios)? Entenda a profissão, como é o atendimento e o que avaliar ao escolher uma profissional.",
- "tag": "Dúvidas", "min": 4, "photo": "lavinia-monteiro-lash-designer",
- "faq": [
-  ("O que é uma lash designer?", "É a profissional especializada em extensão de cílios. Também é chamada de designer de cílios ou extensionista de cílios."),
-  ("Como escolher uma lash designer?", "Avalie o cuidado na conversa inicial, a técnica, a higiene, o portfólio de trabalhos reais, as avaliações e se a profissional explica os cuidados e a manutenção."),
- ],
- "html": """
-<p>“Quem faz cílios é o quê?” é uma pergunta comum. A resposta é: a <strong>lash designer</strong>, também chamada de designer de cílios ou extensionista de cílios. Veja o que ela faz e como escolher.</p>
-
-<h2>O que uma lash designer faz</h2>
-<ul>
-<li>Conversa com você para entender o efeito desejado;</li>
-<li>Avalia os seus cílios naturais e o formato dos seus olhos;</li>
-<li>Escolhe, com você, a técnica (fio a fio, volume brasileiro, volume egípcio, mega volume) e o mapeamento (como o Fox Eyes);</li>
-<li>Aplica os fios sintéticos um a um sobre os cílios naturais;</li>
-<li>Orienta os cuidados e faz a manutenção e a remoção quando necessário.</li>
-</ul>
-
-<h2>Como é o atendimento</h2>
-<p>Você fica deitada, de olhos fechados, relaxada. A aplicação exige calma e precisão, porque cada fio é colocado individualmente. Veja o passo a passo em <a href="/blog/alongamento-de-cilios-o-que-e-e-como-funciona/">alongamento de cílios: o que é e como funciona</a>.</p>
-
-<h2>O que avaliar ao escolher uma lash designer</h2>
-<ul>
-<li><strong>Conversa e avaliação:</strong> uma boa profissional pergunta o que você quer e avalia os seus cílios antes de aplicar;</li>
-<li><strong>Cuidado e higiene:</strong> materiais limpos e atenção ao conforto;</li>
-<li><strong>Trabalhos reais:</strong> peça para ver resultados de outras clientes, como na página de <a href="/clientes/">clientes e resultados</a>;</li>
-<li><strong>Orientação no pós:</strong> como cuidar e quando fazer a <a href="/servicos/manutencao-de-cilios/">manutenção</a>;</li>
-<li><strong>Transparência:</strong> clareza sobre técnica, tempo e valores.</li>
-</ul>
-
-<h2>Lash designer a domicílio</h2>
-<p>Algumas profissionais atendem na casa da cliente, o que traz mais conforto e evita deslocamento. Eu atendo assim em Cosmos, Campo Grande, Paciência, Senador Vasconcelos, Inhoaíba e Santa Cruz. Se quiser me conhecer melhor, veja a página <a href="/quem-sou/">quem sou</a>.</p>
-{CTA}
-"""
-},
-{
  "slug": "mega-volume-e-6d-qual-a-diferenca", "tldr": 'o “D” indica a quantidade de fios do leque: no 6D, cada leque tem seis fios. O mega volume usa leques com mais fios do que o volume tradicional e entrega um olhar bem cheio e marcante. A quantidade ideal depende da espessura e da saúde dos seus cílios naturais.',
  "h1": "Mega volume e 6D: qual a diferença para o volume brasileiro e o egípcio?",
  "title": "Mega Volume e 6D: Qual a Diferença? Guia Rápido",
@@ -305,6 +253,89 @@ NEW_ARTICLES = [
 </ul>
 <p>Veja a comparação completa em <a href="/blog/fio-a-fio-volume-egipcio-brasileiro-qual-escolher/">qual técnica escolher</a>. Mais volume nem sempre é melhor: o ideal é o que combina com os seus cílios naturais e com a sua rotina.</p>
 <div class="callout"><p>Quer saber qual volume combina com você? Me chame no WhatsApp e eu te ajudo a decidir.</p></div>
+{CTA}
+"""
+},
+{
+ "slug": "pode-passar-rimel-na-extensao-de-cilios", "tldr": 'rímel comum, principalmente à prova d’água, costuma ser desaconselhado: pesa, suja os fios e exige esfregar os olhos para sair. Existem produtos próprios para extensão, e o mais importante é não esfregar e combinar o que usar com a sua profissional.',
+ "h1": "Pode passar rímel na extensão de cílios?",
+ "title": "Pode Passar Rímel na Extensão de Cílios? Depende do Produto",
+ "desc": "Pode passar rímel na extensão de cílios? Veja quando o rímel atrapalha, o que existe de produto próprio para extensão e como ter um olhar marcante sem esfregar.",
+ "tag": "Cuidados", "min": 4, "photo": "resultado-cilios-cosmos-rj-03",
+ "faq": [
+  ("Pode passar rímel na extensão de cílios?", "O rímel comum, principalmente à prova d’água, não é recomendado: pesa, suja os fios e, para tirar, é preciso esfregar os olhos, o que solta as extensões. Existem produtos próprios para extensão, e vale conversar com a sua profissional antes de usar."),
+  ("Existe rímel para extensão de cílios?", "Existem produtos vendidos para esse fim, geralmente mais leves e sem óleo. A orientação varia de profissional para profissional, então pergunte para a sua antes de comprar."),
+  ("O que não pode fazer com extensão de cílios?", "Evitar água quente e vapor nas primeiras 24 a 48 horas, não usar curvex, não puxar nem coçar os fios e evitar produtos oleosos perto dos olhos. Veja o guia completo de cuidados."),
+ ],
+ "html": """
+<p>Depois de fazer a extensão, bate a dúvida: dá para passar rímel? A resposta honesta é: <strong>depende do produto</strong>. O rímel comum costuma atrapalhar, e há produtos próprios que podem ser usados com cuidado. Entenda a diferença.</p>
+
+<h2>Por que o rímel comum atrapalha</h2>
+<ul>
+<li><strong>Pesa os fios.</strong> A extensão é leve, e o rímel acrescenta peso sobre os cílios naturais;</li>
+<li><strong>Suja e gruda.</strong> Os fios podem ficar grudados entre si e perder o desenho;</li>
+<li><strong>Exige esfregar para tirar.</strong> Principalmente o rímel à prova d’água, que pede esfregar os olhos e, com isso, solta as extensões;</li>
+<li><strong>Produtos oleosos</strong> podem comprometer a fixação da cola.</li>
+</ul>
+
+<h2>Existe rímel para extensão de cílios?</h2>
+<p>Sim, existem produtos desenvolvidos para quem usa extensão, em geral mais leves e sem óleo. Por isso é comum ouvir que “pode” ou que “não pode”: depende do que se passa. Antes de comprar, pergunte para a sua profissional qual ela recomenda, e nunca use rímel à prova d’água.</p>
+
+<h2>Como remover sem estragar as extensões</h2>
+<p>O ponto mais importante é <strong>não esfregar</strong> os olhos. Use um demaquilante adequado para a região dos olhos e sem óleo, com movimentos suaves, sem puxar. Se tiver dúvida sobre o produto, pergunte antes.</p>
+
+<h2>Como ter um olhar marcante sem rímel</h2>
+<p>A extensão já entrega curvatura, comprimento e definição, e dependendo da técnica, também volume. Se você quer mais impacto, vale escolher um efeito mais marcante, como o <a href="/servicos/volume-egipcio/">volume egípcio</a> ou o <a href="/servicos/mega-volume-egipcio/">mega volume</a>, em vez de recorrer a produto extra.</p>
+
+<h2>Outros cuidados para a extensão durar</h2>
+<p>Evite produtos oleosos perto dos olhos, não use curvex, não puxe os fios e mantenha os cílios limpos e escovados. O guia de <a href="/blog/cuidados-com-extensao-de-cilios/">cuidados com a extensão de cílios</a> traz o passo a passo, e o <a href="/blog/mitos-e-verdades-sobre-extensao-de-cilios/">artigo de mitos e verdades</a> esclarece outras dúvidas comuns.</p>
+{CTA}
+"""
+},
+{
+ "slug": "quanto-tempo-dura-a-extensao-de-cilios", "tldr": 'a duração varia de pessoa para pessoa, porque a extensão cai junto com o cílio natural, que se renova o tempo todo. Com os cuidados certos e manutenção em intervalos regulares, o olhar se mantém preenchido por mais tempo.',
+ "h1": "Quanto tempo dura a extensão de cílios? O que faz cair e como durar mais",
+ "title": "Quanto Tempo Dura a Extensão de Cílios? O Que Faz Cair",
+ "desc": "Quanto tempo dura a extensão de cílios? Entenda o ciclo dos cílios naturais, o que faz as extensões caírem mais cedo e 7 dicas para o resultado durar mais.",
+ "tag": "Dúvidas", "min": 5, "photo": "resultado-cilios-cosmos-rj-04",
+ "faq": [
+  ("Quanto tempo dura a extensão de cílios?", "Não existe um prazo único. As extensões caem junto com os cílios naturais, que passam por um ciclo de crescimento, repouso e queda, e por isso a duração varia de pessoa para pessoa."),
+  ("A extensão de cílios faz os cílios naturais caírem?", "Quando bem aplicada e bem cuidada, a extensão não deve causar a queda dos cílios naturais. O que cai é o cílio que já estava em fase de troca, e a extensão sai junto com ele."),
+  ("De quanto em quanto tempo devo fazer a manutenção?", "Em intervalos regulares, de acordo com a técnica e com o seu ciclo natural de queda. Quem indica o melhor intervalo é a sua profissional, depois de avaliar os seus cílios."),
+ ],
+ "html": """
+<p>É uma das primeiras dúvidas de quem pensa em fazer extensão: <strong>quanto tempo dura</strong>? A resposta depende de alguns fatores. Vamos entender o que muda a duração e o que você pode fazer para o resultado durar mais.</p>
+
+<h2>Afinal, quanto tempo dura a extensão de cílios?</h2>
+<p>Não existe um prazo igual para todo mundo. A extensão é colada no cílio natural, e o cílio natural passa por um ciclo de crescimento, repouso e queda. Quando ele cai, a extensão cai junto. Como cada pessoa tem um ritmo de renovação, a duração varia, e é por isso que o olhar vai ficando menos preenchido com o passar das semanas. Isso é normal.</p>
+
+<h2>O alongamento causa a queda dos cílios naturais? Mito ou verdade</h2>
+<p>Quando a aplicação é bem feita, com o peso certo para cada cílio e isolamento correto, a extensão não deve causar a queda dos cílios naturais. O que cai é o cílio que já estava em fase de troca. Leia mais em <a href="/blog/mitos-e-verdades-sobre-extensao-de-cilios/">mitos e verdades sobre extensão de cílios</a>.</p>
+
+<h2>O que faz a extensão cair mais cedo</h2>
+<ul>
+<li>Água quente e vapor nas primeiras 24 a 48 horas;</li>
+<li>Produtos oleosos perto dos olhos;</li>
+<li>Puxar, coçar ou esfregar os olhos;</li>
+<li>Uso de curvex;</li>
+<li>Dormir com o rosto afundado no travesseiro;</li>
+<li>Aplicação com fios pesados demais para o cílio natural.</li>
+</ul>
+
+<h2>7 dicas para a extensão durar mais</h2>
+<ol>
+<li>Evite molhar, vapor e atrito nas primeiras 24 a 48 horas;</li>
+<li>Lave o rosto com produtos sem óleo;</li>
+<li>Escove os cílios com uma escovinha limpa, com delicadeza;</li>
+<li>Não use curvex;</li>
+<li>Não puxe os fios soltos: peça para a sua profissional;</li>
+<li>Evite rímel comum e produtos oleosos (veja <a href="/blog/pode-passar-rimel-na-extensao-de-cilios/">pode passar rímel na extensão</a>);</li>
+<li>Faça a <a href="/servicos/manutencao-de-cilios/">manutenção</a> em intervalos regulares.</li>
+</ol>
+
+<h2>Qual o intervalo entre as manutenções</h2>
+<p>O intervalo depende da técnica e do seu ciclo de queda, e a sua profissional avalia no atendimento. Leia também <a href="/blog/manutencao-de-cilios-quando-fazer/">manutenção de cílios: quando fazer</a> e o guia de <a href="/blog/cuidados-com-extensao-de-cilios/">cuidados com a extensão de cílios</a>.</p>
+<div class="callout"><p>Quer que eu avalie os seus cílios e indique o melhor intervalo? Me chame no WhatsApp.</p></div>
 {CTA}
 """
 },

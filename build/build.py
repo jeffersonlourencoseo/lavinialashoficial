@@ -88,12 +88,14 @@ def sec_head(eyebrow, h2, lead=""):
 def checks(items):
     return '<ul class="checks">' + "".join(f"<li>{ICON_CHECK}<span>{i}</span></li>" for i in items) + "</ul>"
 
+AREA_SLUG = {"Cosmos": ("cosmos", "Cosmos"), "Campo Grande": ("campo-grande", "Campo Grande RJ"), "Paciência": ("paciencia", "Paciência"),
+             "Senador Vasconcelos": ("senador-vasconcelos", "Senador Vasconcelos"), "Inhoaíba": ("inhoaiba", "Inhoaíba"), "Santa Cruz": ("santa-cruz", "Santa Cruz")}
+
 def chips(links=True):
     out = '<ul class="chips">'
     for a in AREAS:
-        if a == "Cosmos" and links: out += '<li><a href="/atendimento/cosmos/">Cosmos</a></li>'
-        elif a == "Campo Grande" and links: out += '<li><a href="/atendimento/campo-grande/">Campo Grande RJ</a></li>'
-        else: out += f"<li>{a}</li>"
+        slug, label = AREA_SLUG[a]
+        out += f'<li><a href="/atendimento/{slug}/">{label}</a></li>' if links else f"<li>{a}</li>"
     return out + "</ul>"
 
 SCH_BUSINESS = business_schema()
@@ -174,8 +176,6 @@ def about():
 <h2>Um fio de cada vez</h2>
 <p>Acredito que a beleza que vale a pena é aquela que combina com você. Por isso não existe um olhar padrão: existe o seu estilo, a sua rotina e o efeito que faz você se sentir bem quando se olha no espelho. Antes de começar, a gente conversa, eu entendo o que você imagina e só então escolho, com você, a técnica e o mapeamento ideais, do <a href="/servicos/extensao-de-cilios-fio-a-fio/">fio a fio</a> delicado ao <a href="/servicos/mega-volume-egipcio/">mega volume</a> marcante.</p>
 <blockquote>O melhor momento do atendimento é quando você abre os olhos e se enxerga no espelho.</blockquote>
-<h2>Lash designer, designer de cílios, extensionista: o que faço</h2>
-<p>Lash designer, designer de cílios e extensionista de cílios são nomes para a mesma profissão: a profissional que faz o alongamento de cílios com fios sintéticos, aplicados um a um sobre os cílios naturais. Se você quer entender melhor o dia a dia dessa profissão e o que esperar do atendimento, leia <a href="/blog/o-que-faz-uma-lash-designer/">o que faz uma lash designer</a>.</p>
 <h2>Por que eu vou até você</h2>
 <p>Escolhi atender a domicílio porque cuidar de si deveria ser leve. Sem trânsito, sem pressa, sem precisar sair de casa: você se deita, respira fundo e eu cuido do resto, com hora marcada e atenção só para você.</p>
 <p>Atendo em Cosmos, Campo Grande, Paciência, Senador Vasconcelos, Inhoaíba e Santa Cruz, e o cuidado não termina na aplicação: também faço <a href="/servicos/manutencao-de-cilios/">manutenção</a> para manter o olhar sempre bonito e <a href="/servicos/remocao-de-cilios/">remoção</a> feita com todo o cuidado para preservar os seus cílios naturais.</p>
@@ -270,6 +270,8 @@ LOCAL_PREP = ("<h2>Como funciona o atendimento em casa em {local}</h2>"
 
 # ===================== ATENDIMENTO =====================
 def areas():
+    from areas_extra import PREP as _P, EXTRA as _E
+    PREP_COSMOS, PREP_CG = _P["Cosmos"], _P["Campo Grande"]
     trail = [("Início", "/"), ("Onde atendo", "/atendimento/")]
     hub_faq = [("Meu bairro não está na lista. Você atende?", "Atendo em Cosmos, Campo Grande, Paciência, Senador Vasconcelos, Inhoaíba e Santa Cruz. Se o seu bairro não aparece, chame no WhatsApp com o seu endereço aproximado e eu te digo se consigo atender."),
                ("Preciso ir até algum lugar?", "Não. O atendimento é a domicílio: eu vou até a sua casa, com hora marcada.")]
@@ -280,7 +282,7 @@ def areas():
 <a class="card rv" href="/atendimento/cosmos/"><div class="tx" style="padding:38px 34px"><span class="eyebrow">Atendimento principal</span><h3>Cílios em Cosmos</h3><p>Lash designer a domicílio em Cosmos, Rio de Janeiro. Fio a fio, volumes e Fox Eyes na sua casa.</p><span class="more">Ver página</span></div></a>
 <a class="card rv d1" href="/atendimento/campo-grande/"><div class="tx" style="padding:38px 34px"><span class="eyebrow">Rio de Janeiro</span><h3>Cílios em Campo Grande RJ</h3><p>Extensão de cílios a domicílio em Campo Grande, no Rio de Janeiro, com hora marcada.</p><span class="more">Ver página</span></div></a>
 </div></div></section>
-<section class="sec blush"><div class="wrap">{sec_head("Outras regiões", "Também atendo em", "Chame no WhatsApp para confirmar a disponibilidade no seu bairro.")}{chips(False)}</div></section>
+<section class="sec blush"><div class="wrap">{sec_head("Outras regiões", "Também atendo em", "Veja a página de cada bairro ou chame no WhatsApp para confirmar a disponibilidade no seu endereço.")}{chips()}</div></section>
 <section class="sec"><div class="wrap">{sec_head("Dúvidas", "Sobre o <em>atendimento</em>")}<div class="rv">{faq_html(hub_faq)}</div></div></section>'''
     add("/atendimento/", "Onde Atendo | Cílios a Domicílio em Cosmos e Campo Grande RJ",
         "Extensão de cílios a domicílio em Cosmos, Campo Grande, Paciência, Senador Vasconcelos, Inhoaíba e Santa Cruz, no Rio de Janeiro. Veja e agende.",
@@ -311,9 +313,9 @@ def areas():
         "Extensão de cílios em <em>Cosmos</em>, RJ, na sua casa",
         "Sou a Lavínia, lash designer em Cosmos. Faço sua extensão de cílios no conforto de casa, com hora marcada e atendimento só para você.",
         ["<h2>Lash designer em Cosmos que vai até você</h2><p>Se você mora em Cosmos, no Rio de Janeiro, e procura uma lash designer perto de você, eu vou até a sua casa. Em vez de tirar um dia para ir até um estúdio, você faz a sua extensão de cílios no seu sofá ou na sua cama, sem trânsito e sem pressa.</p>",
-         "<h2>Técnicas de extensão de cílios disponíveis em Cosmos</h2><p>Cada atendimento recebe o tempo e a atenção que o seu olhar merece, seja uma aplicação nova, uma <a href=\"/servicos/manutencao-de-cilios/\">manutenção</a> ou uma <a href=\"/servicos/remocao-de-cilios/\">remoção</a>. Antes de começar, conversamos sobre o efeito que você quer, desde o <a href=\"/servicos/extensao-de-cilios-fio-a-fio/\">fio a fio</a>, mais natural, até o <a href=\"/servicos/mega-volume-egipcio/\">mega volume egípcio</a>, mais marcante, passando pelo <a href=\"/servicos/volume-egipcio/\">volume egípcio</a>, pelo <a href=\"/servicos/volume-brasileiro/\">volume brasileiro</a> e pelo <a href=\"/servicos/volume-fox-eyes/\">Fox Eyes</a>.</p>" + LOCAL_PREP.format(local="Cosmos"),
+         "<h2>Técnicas de extensão de cílios disponíveis em Cosmos</h2><p>Cada atendimento recebe o tempo e a atenção que o seu olhar merece, seja uma aplicação nova, uma <a href=\"/servicos/manutencao-de-cilios/\">manutenção</a> ou uma <a href=\"/servicos/remocao-de-cilios/\">remoção</a>. Antes de começar, conversamos sobre o efeito que você quer, desde o <a href=\"/servicos/extensao-de-cilios-fio-a-fio/\">fio a fio</a>, mais natural, até o <a href=\"/servicos/mega-volume-egipcio/\">mega volume egípcio</a>, mais marcante, passando pelo <a href=\"/servicos/volume-egipcio/\">volume egípcio</a>, pelo <a href=\"/servicos/volume-brasileiro/\">volume brasileiro</a> e pelo <a href=\"/servicos/volume-fox-eyes/\">Fox Eyes</a>.</p>" + PREP_COSMOS,
          "<h2>Atendimento em Cosmos e bairros vizinhos</h2><p>Além de Cosmos, também atendo moradoras de Campo Grande, Paciência, Senador Vasconcelos, Inhoaíba e Santa Cruz. Quer conferir o meu perfil? <a href=\"" + MAPS + "\" target=\"_blank\" rel=\"noopener\">Encontre a Lavínia Monteiro | Lash Designer no Google Maps</a>.</p>"],
-        cosmos_faq)
+        cosmos_faq, extra=_E["Cosmos"])
 
     cg_faq = [
      ("Você atende em Campo Grande, no Rio de Janeiro?", "Sim. Atendo a domicílio em Campo Grande, na Zona Oeste do Rio de Janeiro (RJ), com hora marcada. Para confirmar a disponibilidade no seu endereço, chame no WhatsApp."),
@@ -327,10 +329,15 @@ def areas():
         "Extensão de cílios em <em>Campo Grande RJ</em>, a domicílio",
         "Lash designer a domicílio em Campo Grande, Rio de Janeiro. Eu vou até você, com hora marcada, para um olhar bonito sem sair de casa.",
         ["<h2>Extensão de cílios em Campo Grande, sem sair de casa</h2><p>Procurando extensão de cílios em Campo Grande, no Rio de Janeiro? Eu atendo a domicílio: vou até a sua casa, com tudo o que preciso, e você faz o procedimento deitada, relaxada e sem precisar enfrentar o trânsito da Zona Oeste.</p>",
-         "<h2>Qual técnica escolher</h2><p>Escolha a técnica que mais combina com você: <a href=\"/servicos/extensao-de-cilios-fio-a-fio/\">fio a fio</a> para um olhar natural, <a href=\"/servicos/volume-brasileiro/\">volume brasileiro</a> ou <a href=\"/servicos/volume-egipcio/\">volume egípcio</a> para mais preenchimento, <a href=\"/servicos/mega-volume-egipcio/\">mega volume egípcio</a> para um olhar bem marcante, ou <a href=\"/servicos/volume-fox-eyes/\">Fox Eyes</a> para alongar e levantar os olhos.</p>" + LOCAL_PREP.format(local="Campo Grande"),
+         "<h2>Qual técnica escolher</h2><p>Escolha a técnica que mais combina com você: <a href=\"/servicos/extensao-de-cilios-fio-a-fio/\">fio a fio</a> para um olhar natural, <a href=\"/servicos/volume-brasileiro/\">volume brasileiro</a> ou <a href=\"/servicos/volume-egipcio/\">volume egípcio</a> para mais preenchimento, <a href=\"/servicos/mega-volume-egipcio/\">mega volume egípcio</a> para um olhar bem marcante, ou <a href=\"/servicos/volume-fox-eyes/\">Fox Eyes</a> para alongar e levantar os olhos.</p>" + PREP_CG,
          "<h2>Atendimento em Campo Grande e região</h2><p>Sou de Cosmos, bairro vizinho de Campo Grande, e atendo também Paciência, Senador Vasconcelos, Inhoaíba e Santa Cruz. Sempre com hora marcada e atenção exclusiva, para você ter a sua melhor experiência.</p>"],
         cg_faq,
-        extra='<div class="callout"><p><strong>Campo Grande RJ, não MS.</strong> Meu atendimento é em Campo Grande, na Zona Oeste do Rio de Janeiro (RJ).</p></div>')
+        extra=_E["Campo Grande"] + '<div class="callout"><p><strong>Campo Grande RJ, não MS.</strong> Meu atendimento é em Campo Grande, na Zona Oeste do Rio de Janeiro (RJ).</p></div>')
+
+    from areas_extra import AREA_PAGES, PREP, EXTRA
+    for p in AREA_PAGES:
+        paras = [x.replace("{LOCAL_PREP}", PREP[p["nome"]]) for x in p["paras"]] + [EXTRA[p["nome"]]]
+        local_page(p["slug"], p["nome"], p["title"], p["desc"], p["h1"], p["lead"], paras, p["faq"])
 
 # ===================== CLIENTES =====================
 def clients():
