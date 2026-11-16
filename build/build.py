@@ -153,7 +153,7 @@ def home():
 <p class="center rv" style="margin-top:34px"><a class="more" href="/blog/">Ver todos os artigos</a></p></div></section>'''
     body = hero + ticker + services + how + about + results + (testimonials_section() or why_section()) + areas + faq + blog + final_cta()
     add("/", "Extensão de Cílios em Cosmos e Campo Grande RJ | Lavínia Monteiro",
-        "Lash designer a domicílio em Cosmos, Campo Grande, Paciência, Inhoaíba e Santa Cruz (RJ). Fio a fio, volumes e Fox Eyes. Agende pelo WhatsApp.",
+        "Lash designer a domicílio em Cosmos, Campo Grande, Paciência, Vasconcelos, Inhoaíba e Santa Cruz (RJ). Fio a fio, volumes e Fox Eyes. Agende no WhatsApp.",
         body, [SCH_BUSINESS, WEBSITE, faq_schema(HOME_FAQ)])
 
 # ===================== QUEM SOU =====================
