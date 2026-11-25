@@ -352,4 +352,50 @@ NEW_ARTICLES = [
 {CTA}
 """
 },
+{
+ "slug": "extensao-de-cilios-natural", "date": "2026-11-25", "tldr": 'para a extensão de cílios ficar natural, o que mais pesa é a combinação de técnica leve (como o fio a fio), comprimento moderado, curvatura próxima da sua e um desenho que respeite o formato dos olhos.',
+ "h1": "Extensão de cílios natural: como conseguir um olhar leve e discreto",
+ "title": "Extensão de Cílios Natural: Como Ter um Olhar Discreto",
+ "desc": "Extensão de cílios natural: veja qual técnica escolher, como comprimento, curvatura e mapeamento mudam o resultado e o que pedir para não ficar artificial.",
+ "tag": "Técnicas", "min": 4, "photo": "resultado-cilios-cosmos-rj-01",
+ "faq": [
+  ("Qual extensão de cílios é a mais natural?", "Em geral, o fio a fio, porque usa um fio sintético em cada cílio natural. O resultado também depende do comprimento, da curvatura e da espessura escolhidos."),
+  ("Dá para ter efeito natural com volume brasileiro?", "Sim. Com comprimentos moderados e um desenho suave, o volume brasileiro preenche mais que o fio a fio e continua com aparência leve."),
+  ("O que pedir para a extensão não ficar artificial?", "Diga que quer um efeito discreto, peça comprimento próximo do seu, curvatura suave e leve uma foto de referência. A profissional avalia o que os seus cílios naturais suportam."),
+ ],
+ "html": """
+<p>Muita gente quer fazer extensão, mas tem receio de ficar com um olhar “carregado”. A boa notícia: dá para ter uma <strong>extensão de cílios natural</strong>, daquelas que realçam sem chamar atenção demais. O segredo está nas escolhas feitas antes da aplicação.</p>
+
+<h2>O que deixa a extensão com aparência natural</h2>
+<ul>
+<li><strong>Comprimento moderado:</strong> próximo do tamanho dos seus cílios, com um alongamento discreto;</li>
+<li><strong>Curvatura suave:</strong> quanto mais parecida com a sua curvatura, menos o efeito aparece como algo aplicado;</li>
+<li><strong>Peso certo:</strong> a espessura do fio precisa respeitar o que cada cílio natural suporta;</li>
+<li><strong>Desenho harmônico:</strong> o mapeamento acompanha o formato dos olhos, sem exagerar em um ponto só.</li>
+</ul>
+
+<h2>Qual técnica escolher</h2>
+<h3>Fio a fio</h3>
+<p>É a escolha mais comum para quem quer discrição: um fio sintético em cada cílio natural, com definição e leveza. Conheça a <a href="/servicos/extensao-de-cilios-fio-a-fio/">extensão fio a fio a domicílio</a>.</p>
+<h3>Volume brasileiro leve</h3>
+<p>Os fios em formato de Y preenchem um pouco mais. É uma opção para quem tem falhas e quer um olhar mais cheio sem perder a naturalidade. Veja o <a href="/servicos/volume-brasileiro/">volume brasileiro</a>.</p>
+<p>Técnicas de leque, como o <a href="/servicos/volume-egipcio/">volume egípcio</a> e o <a href="/servicos/mega-volume-egipcio/">mega volume</a>, costumam entregar um efeito mais marcado.</p>
+
+<h2>O mapeamento também conta</h2>
+<p>O desenho em estilo boneca ou esquilo, feito com diferenças suaves de comprimento, pode abrir o olhar com delicadeza. Já o <a href="/servicos/volume-fox-eyes/">Fox Eyes</a> alonga mais o canto externo e tende a aparecer mais. Compare os desenhos no artigo sobre <a href="/blog/mapping-de-cilios-gatinho-boneca-esquilo-e-fox-eyes/">mapping de cílios</a>.</p>
+
+<h2>Como pedir o efeito que você quer</h2>
+<ol>
+<li>Explique que prefere um resultado discreto, para o dia a dia;</li>
+<li>Leve uma foto de referência;</li>
+<li>Conte se usa óculos e como é a sua rotina;</li>
+<li>Se for a primeira vez, comece mais leve: dá para ajustar na manutenção.</li>
+</ol>
+
+<h2>Como manter o aspecto natural</h2>
+<p>Com o ciclo de queda, alguns fios saem e o desenho pode ficar irregular. Escove com delicadeza, não puxe os fios e faça a <a href="/servicos/manutencao-de-cilios/">manutenção de cílios</a> em intervalos regulares. O guia de <a href="/blog/cuidados-com-extensao-de-cilios/">cuidados com a extensão</a> ajuda nessa parte.</p>
+<div class="callout"><p>Quer um efeito natural? Me chame no WhatsApp e mande a sua referência.</p></div>
+{CTA}
+"""
+},
 ]
